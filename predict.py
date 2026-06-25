@@ -14,6 +14,7 @@ Output CSV:
     time_period, location, sample_0 … sample_99
 """
 import json, sys, os, pickle, zipfile
+from datetime import datetime
 import numpy as np
 import pandas as pd
 from pathlib import Path
@@ -142,8 +143,15 @@ def load_baseline(mort_dir):
 # ── Period helpers ────────────────────────────────────────────────────────────
 
 def normalize_period(p):
-    """Accept both '2024W27' and '2024-W27'."""
-    return str(p).replace('-W', 'W')
+    """Normalize to YYYYWnn. Handles '2024W27', '2024-W27', and DHIS2
+    date-range format '2023-01-02/2023-01-08' (uses the start date)."""
+    p = str(p)
+    if '/' in p:
+        start = p.split('/')[0]
+        dt = datetime.strptime(start, '%Y-%m-%d')
+        iso_year, iso_week, _ = dt.isocalendar()
+        return f"{iso_year}W{iso_week:02d}"
+    return p.replace('-W', 'W')
 
 
 def period_sort_key(p):
