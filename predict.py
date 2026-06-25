@@ -43,6 +43,19 @@ BL_UID_TO_IDX = {
 BL_IDX_TO_UID = {v: k for k, v in BL_UID_TO_IDX.items()}
 BL_KREIS_COUNTS = [15, 1, 45, 2, 53, 26, 36, 44, 96, 6, 1, 18, 8, 13, 14, 22]
 
+# Population (Destatis 2023) as a fraction of Germany total, divided by Kreis fraction.
+# The model distributes mortality uniformly across 400 Kreise, but Kreis count ≠ population
+# share. Berlin has 1 Kreis (0.25% of model) but 4.5% of population → needs ×18 scaling.
+# Formula: (Bundesland pop / Germany pop) / (Kreis count / 400).
+_BL_POP = [2953243, 1910160, 8101307, 684862, 18137620, 6400732,
+           4100023, 11286556, 13369393, 994187, 3755251, 2573040,
+           1634987, 4055274, 2166382, 2115485]
+_GERMANY_POP = sum(_BL_POP)
+BL_POP_SCALE = [
+    (p / _GERMANY_POP) / (k / 400)
+    for p, k in zip(_BL_POP, BL_KREIS_COUNTS)
+]
+
 
 # ── Checkpoint loader (pure numpy, no torch) ──────────────────────────────────
 
@@ -233,7 +246,7 @@ def predict(model_path, historic_data_path, future_data_path, out_path):
             bl_uid = BL_IDX_TO_UID.get(bl_i)
             if bl_uid is None:
                 kreis_idx += count; continue
-            weekly_mean = float(week_kreise[kreis_idx:kreis_idx + count].sum())
+            weekly_mean = float(week_kreise[kreis_idx:kreis_idx + count].sum()) * BL_POP_SCALE[bl_i]
             lam = max(weekly_mean, 1.0)
             samples = np.random.poisson(lam, N_SAMPLES).astype(float)
             row = {'time_period': chap_period, 'location': bl_uid}
