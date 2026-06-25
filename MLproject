@@ -1,0 +1,37 @@
+name: heat_mortality_germany
+
+uv_env: pyproject.toml
+
+entry_points:
+  train:
+    parameters:
+      train_data: str
+      model: str
+    command: "python train.py {train_data} {model}"
+  predict:
+    parameters:
+      historic_data: str
+      future_data: str
+      model: str
+      out_file: str
+    command: "python predict.py {model} {historic_data} {future_data} {out_file}"
+
+supported_period_type: week
+required_covariates:
+  - mean_temperature
+
+meta_data:
+  display_name: "Heat Mortality Germany (ClimSocAna)"
+  description: >
+    Pre-trained heat-attributable mortality model for Germany (Bundesland level, weekly).
+    Shallow neural network from ClimSocAna et al. (Communications Medicine 2024).
+    Uses weekly mean 2m ERA5 temperature to predict all-cause weekly deaths per Bundesland.
+    No retraining required — checkpoint trained on 2011-2020 Helmholtz-Munich data.
+  author: "ClimSocAna / DHIS2"
+  author_assessed_status: orange
+  organization: "DHIS2"
+  contact_email: "brian@dhis2.org"
+  citation_info: >
+    ClimSocAna et al. (2024). Heat-attributable mortality in Germany.
+    Communications Medicine. https://doi.org/10.1038/s43856-024-00643-3
+  documentation_url: "https://github.com/iambodo/de-heat"

@@ -1,0 +1,9 @@
+[project]
+name = "heat-mortality-germany"
+version = "1.0.0"
+description = "Heat-attributable mortality model for Germany (CHAP-compatible)"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy>=1.24",
+    "pandas>=2.0",
+]
