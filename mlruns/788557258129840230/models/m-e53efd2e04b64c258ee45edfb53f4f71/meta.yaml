@@ -1,0 +1,10 @@
+artifact_location: file:///home/brodo512/de-heat/mlruns/788557258129840230/models/m-e53efd2e04b64c258ee45edfb53f4f71/artifacts
+creation_timestamp: 1782396564327
+experiment_id: '788557258129840230'
+last_updated_timestamp: 1782396564483
+model_id: m-e53efd2e04b64c258ee45edfb53f4f71
+model_type: null
+name: model
+source_run_id: b0c442b173064c0b8ec5930e389f869d
+status: 2
+status_message: null

@@ -1,0 +1,9 @@
+artifact_location: file:///home/brodo512/de-heat/mlruns/788557258129840230
+creation_time: 1782396564293
+effective_trace_archival_retention: null
+experiment_id: '788557258129840230'
+last_update_time: 1782396564293
+lifecycle_stage: active
+name: heat-mortality-germany
+trace_location: null
+workspace: default

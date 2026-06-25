@@ -1,0 +1,19 @@
+# Claude Code project instructions (may contain API keys)
+CLAUDE.md
+
+# Downloaded raw data
+data/
+
+# Cloned external repos
+Heat-Mortality/
+deutschlandGeoJSON/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.Python
+*.egg-info/
+
+# Runtime / temp
+.claude/

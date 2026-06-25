@@ -1,0 +1,16 @@
+creation_timestamp: 1782396564508
+current_stage: None
+deployment_job_state: null
+description: null
+last_updated_timestamp: 1782396564508
+model_id: m-e53efd2e04b64c258ee45edfb53f4f71
+name: heat-mortality-germany
+run_id: b0c442b173064c0b8ec5930e389f869d
+run_link: null
+source: models:/m-e53efd2e04b64c258ee45edfb53f4f71
+status: READY
+status_message: null
+storage_location: file:///home/brodo512/de-heat/mlruns/788557258129840230/models/m-e53efd2e04b64c258ee45edfb53f4f71/artifacts
+user_id: null
+version: 1
+workspace: default

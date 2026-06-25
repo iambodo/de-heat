@@ -1,0 +1,27 @@
+context_weeks: 2
+description: District-level heat-attributable mortality model for Germany. Pre-trained
+  shallow neural network (ClimSocAna 2024). Bundesland weekly predictions from ERA5
+  temperature.
+features:
+- description: "Weekly mean 2m temperature from ERA5 (\xB0C)"
+  dhis2_id: Fnf55anfV8Z
+  name: mean_temperature
+  period_type: Weekly
+id: heat-mortality-germany-v1
+mlflow:
+  model_uri: runs:/b0c442b173064c0b8ec5930e389f869d/model
+  run_id: b0c442b173064c0b8ec5930e389f869d
+  tracking_uri: file:///home/brodo512/de-heat/mlruns
+name: Heat Mortality Germany (ClimSocAna)
+notes: "Requires at least 2 weeks of temperature data as context window. Confidence\
+  \ interval is \xB120% (placeholder; recalibrate with local data). Model was trained\
+  \ on 2011-2020 data; baseline uses 2000-2023 mortality. Temperature source: ERA5\
+  \ via Open-Meteo (archive-api.open-meteo.com)."
+org_unit_level: 2
+period_type: Weekly
+target:
+  description: All-cause weekly deaths
+  dhis2_id: m2rnAHcpz6U
+  period_type: Weekly
+type: mlflow_pyfunc
+version: 1.0.0

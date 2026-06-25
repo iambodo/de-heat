@@ -1,0 +1,18 @@
+{
+  "dataframe_split": {
+    "columns": [
+      "time_period",
+      "location",
+      "mean_temperature",
+      "population"
+    ],
+    "data": [
+      [
+        "2024W25",
+        "sTHbKLIUiJQ",
+        18.4,
+        2922005
+      ]
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+name: "Heat Mortality Germany (ClimSocAna)"
+version: "1.0.0"
+author: "ClimSocAna / DHIS2"
+description: >
+  District-level heat-attributable mortality model for Germany.
+  Pre-trained shallow neural network from ClimSocAna (2024 Communications Medicine).
+  Takes weekly mean 2m temperature per Bundesland from DHIS2, predicts
+  all-cause weekly deaths with 6-day lag structure, returns Bundesland weekly totals.
+
+type: mlflow_pyfunc
+
+mlflow:
+  # tracking_uri must be an absolute path on the chap-core host after git clone.
+  # Update this path to wherever the repo is cloned.
+  tracking_uri: "file:///home/brodo512/de-heat/mlruns"
+  model_name: "heat-mortality-germany"
+  model_version: "1"
+  run_id: "b0c442b173064c0b8ec5930e389f869d"
+  load_uri: "models:/heat-mortality-germany/1"
+
+features:
+  - name: mean_temperature
+    dhis2_id: Fnf55anfV8Z       # Mean Temperature 2m (ERA5_TEMP_2M_MEAN)
+    period_type: Weekly
+    description: "Weekly mean 2m air temperature in °C from ERA5 reanalysis"
+
+target:
+  dhis2_id: m2rnAHcpz6U         # Deaths (all causes)
+  period_type: Weekly
+  description: "All-cause weekly deaths, all ages"
+
+org_unit_level: 2               # Bundesland level
+period_type: Weekly
+context_weeks: 2                # Minimum historical weeks needed for inference
+
+notes:
+  - "No training step required — model uses pre-trained ClimSocAna checkpoint."
+  - "Temperature must cover the prediction week plus at least 1 preceding week."
+  - "Confidence interval is ±20% (placeholder; calibrate with local data)."
+  - "Requires chap-core >= 0.8 and mlflow >= 2.8 installed on the chap-core host."

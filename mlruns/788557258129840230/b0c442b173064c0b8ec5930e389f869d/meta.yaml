@@ -1,0 +1,14 @@
+artifact_uri: file:///home/brodo512/de-heat/mlruns/788557258129840230/b0c442b173064c0b8ec5930e389f869d/artifacts
+end_time: 1782396564519
+entry_point_name: ''
+experiment_id: '788557258129840230'
+lifecycle_stage: active
+run_id: b0c442b173064c0b8ec5930e389f869d
+run_name: package-v1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1782396564318
+status: 3
+tags: []
+user_id: brodo512
