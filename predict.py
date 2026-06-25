@@ -225,6 +225,9 @@ def predict(model_path, historic_data_path, future_data_path, out_path):
 
         week_kreise = daily_kreise[day_start:day_end].sum(axis=0)   # [400]
 
+        # Convert to YYYY-Wnn format (with hyphen) for chap-core's TimePeriod.parse
+        chap_period = period[:4] + '-W' + period[5:]
+
         kreis_idx = 0
         for bl_i, count in enumerate(BL_KREIS_COUNTS):
             bl_uid = BL_IDX_TO_UID.get(bl_i)
@@ -233,7 +236,7 @@ def predict(model_path, historic_data_path, future_data_path, out_path):
             weekly_mean = float(week_kreise[kreis_idx:kreis_idx + count].sum())
             lam = max(weekly_mean, 1.0)
             samples = np.random.poisson(lam, N_SAMPLES).astype(float)
-            row = {'time_period': period, 'location': bl_uid}
+            row = {'time_period': chap_period, 'location': bl_uid}
             row.update({f'sample_{i}': s for i, s in enumerate(samples)})
             rows.append(row)
             kreis_idx += count
