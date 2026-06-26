@@ -1,17 +1,18 @@
 #!/usr/bin/env python3
 """
 Download weekly mean 2m temperature for German Kreise from Open-Meteo
-(ERA5 reanalysis, free, no API key) and import into DHIS2.
+and import into DHIS2.
 
-Fetches daily data per Kreis centroid, aggregates to ISO weeks,
-and imports as DHIS2 weekly data values.
+Uses ERA5 reanalysis (archive API) for historical data, then fills the
+current and next ISO week with the Open-Meteo forecast API so recent
+and upcoming temperatures are always present.
 
 Checkpoints progress to data/era5_checkpoint.json so interruptions
 can be resumed without re-fetching completed Kreise.
 
 Usage:
     python3 scripts/download_temperature.py
-    python3 scripts/download_temperature.py --start 2018-01-01 --end 2025-12-31
+    python3 scripts/download_temperature.py --start 2018-01-01
     python3 scripts/download_temperature.py --dry-run
     python3 scripts/download_temperature.py --reset   # clear checkpoint and restart
 """
@@ -30,7 +31,8 @@ urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 DHIS2_BASE = "https://dhis2-127-0-0-1.nip.io"
 AUTH = ("admin", "R3Zc8IawSBCHYu4Ve=k9NM-R5nw5w9SK")
-OPEN_METEO_URL = "https://archive-api.open-meteo.com/v1/archive"
+ARCHIVE_URL  = "https://archive-api.open-meteo.com/v1/archive"
+FORECAST_URL = "https://api.open-meteo.com/v1/forecast"
 
 KREISE_FILE = Path("data/geojson/kreise.geo.json")
 CHECKPOINT_FILE = Path("data/era5_checkpoint.json")
@@ -150,16 +152,12 @@ def centroid(geometry):
 
 # ── Open-Meteo fetch ───────────────────────────────────────────────────────────
 
-def fetch_weekly_temperature(lat, lon, start_date, end_date):
-    """
-    Fetch daily ERA5 2m temperature from Open-Meteo and aggregate to ISO weeks.
-    Returns {YYYYWnn: mean_celsius}. Retries with backoff on 429.
-    """
+def _fetch_daily_raw(lat, lon, start_date, end_date, use_forecast=False):
+    """Fetch daily mean 2m temperature. Returns {date_str: celsius_or_None}."""
+    url = FORECAST_URL if use_forecast else ARCHIVE_URL
     params = {
-        "latitude": lat,
-        "longitude": lon,
-        "start_date": start_date,
-        "end_date": end_date,
+        "latitude": lat, "longitude": lon,
+        "start_date": start_date, "end_date": end_date,
         "daily": "temperature_2m_mean",
         "timezone": "Europe/Berlin",
     }
@@ -167,21 +165,42 @@ def fetch_weekly_temperature(lat, lon, start_date, end_date):
         if wait:
             print(f" [rate limited, waiting {wait}s]", end=" ", flush=True)
             time.sleep(wait)
-        resp = climate.get(OPEN_METEO_URL, params=params, timeout=90)
+        resp = climate.get(url, params=params, timeout=90)
         if resp.status_code == 429:
             if attempt < len(RETRY_DELAYS):
                 continue
             resp.raise_for_status()
         resp.raise_for_status()
         break
-    data = resp.json()
+    daily = resp.json().get("daily", {})
+    return dict(zip(daily.get("time", []), daily.get("temperature_2m_mean", [])))
 
-    daily = data.get("daily", {})
-    dates = daily.get("time", [])
-    temps = daily.get("temperature_2m_mean", [])
+
+def fetch_weekly_temperature(lat, lon, start_date, end_date):
+    """
+    Fetch daily ERA5 archive + forecast and aggregate to ISO weeks.
+
+    The archive API lags ~5-7 days. If end_date is within that lag window or
+    in the future, the forecast API back-fills the gap so the current and
+    next ISO week always have data. Returns {YYYYWnn: mean_celsius}.
+    """
+    archive_cutoff = (date.today() - timedelta(days=7)).strftime("%Y-%m-%d")
+    archive_end = min(end_date, archive_cutoff)
+
+    daily = _fetch_daily_raw(lat, lon, start_date, archive_end, use_forecast=False)
+
+    # Extend into current / next week via forecast if requested end is recent
+    if end_date > archive_cutoff:
+        try:
+            forecast = _fetch_daily_raw(lat, lon, archive_cutoff, end_date, use_forecast=True)
+            for d, t in forecast.items():
+                if d not in daily and t is not None:
+                    daily[d] = t
+        except Exception as e:
+            print(f" [forecast fetch failed: {e}]", end=" ", flush=True)
 
     weekly = defaultdict(list)
-    for d, t in zip(dates, temps):
+    for d, t in daily.items():
         if t is None:
             continue
         dt = datetime.strptime(d, "%Y-%m-%d")
@@ -216,9 +235,13 @@ def main():
     args = parser.parse_args()
 
     if args.end is None:
-        args.end = (date.today() - timedelta(days=5)).strftime("%Y-%m-%d")
+        # End of next ISO week (Sunday) so forecast covers current + next week
+        today = date.today()
+        days_until_next_sunday = (6 - today.weekday() + 7) % 7 + 7
+        args.end = (today + timedelta(days=days_until_next_sunday)).strftime("%Y-%m-%d")
 
-    print(f"=== ERA5 Weekly Temperature: {args.start} → {args.end} ===\n")
+    print(f"=== ERA5 Weekly Temperature: {args.start} → {args.end} ===")
+    print(f"(Archive up to ~7 days ago, forecast fills current + next ISO week)\n")
 
     if args.reset and CHECKPOINT_FILE.exists():
         CHECKPOINT_FILE.unlink()

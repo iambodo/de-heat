@@ -1,0 +1,3908 @@
+[
+  {
+    "idx": 0,
+    "uid": "nhRGkOVO1lU",
+    "name": "Alb-Donau",
+    "bundesland_uid": "DqYmO9PfYbM",
+    "bundesland_name": "Baden-Württemberg",
+    "lat": 48.3738,
+    "lon": 9.8703
+  },
+  {
+    "idx": 1,
+    "uid": "Vrow2YMunRm",
+    "name": "Baden-Baden Städte",
+    "bundesland_uid": "DqYmO9PfYbM",
+    "bundesland_name": "Baden-Württemberg",
+    "lat": 48.7517,
+    "lon": 8.2268
+  },
+  {
+    "idx": 2,
+    "uid": "v6Peamr37C3",
+    "name": "Biberach",
+    "bundesland_uid": "DqYmO9PfYbM",
+    "bundesland_name": "Baden-Württemberg",
+    "lat": 48.1266,
+    "lon": 9.7388
+  },
+  {
+    "idx": 3,
+    "uid": "ZOkTIaDQ6xQ",
+    "name": "Bodensee",
+    "bundesland_uid": "DqYmO9PfYbM",
+    "bundesland_name": "Baden-Württemberg",
+    "lat": 47.7412,
+    "lon": 9.4196
+  },
+  {
+    "idx": 4,
+    "uid": "yAVuA2AhrdF",
+    "name": "Breisgau-Hochschwarzwald",
+    "bundesland_uid": "DqYmO9PfYbM",
+    "bundesland_name": "Baden-Württemberg",
+    "lat": 47.9266,
+    "lon": 7.969
+  },
+  {
+    "idx": 5,
+    "uid": "uQ5h0Lp12rz",
+    "name": "Böblingen",
+    "bundesland_uid": "DqYmO9PfYbM",
+    "bundesland_name": "Baden-Württemberg",
+    "lat": 48.6803,
+    "lon": 8.944
+  },
+  {
+    "idx": 6,
+    "uid": "n4l7khWZpoq",
+    "name": "Calw",
+    "bundesland_uid": "DqYmO9PfYbM",
+    "bundesland_name": "Baden-Württemberg",
+    "lat": 48.685,
+    "lon": 8.6136
+  },
+  {
+    "idx": 7,
+    "uid": "bw8Vmf8jFM9",
+    "name": "Emmendingen",
+    "bundesland_uid": "DqYmO9PfYbM",
+    "bundesland_name": "Baden-Württemberg",
+    "lat": 48.1459,
+    "lon": 7.9516
+  },
+  {
+    "idx": 8,
+    "uid": "L8avwy1kS1F",
+    "name": "Enz",
+    "bundesland_uid": "DqYmO9PfYbM",
+    "bundesland_name": "Baden-Württemberg",
+    "lat": 48.8954,
+    "lon": 8.7298
+  },
+  {
+    "idx": 9,
+    "uid": "MBiuXyd2rsN",
+    "name": "Esslingen",
+    "bundesland_uid": "DqYmO9PfYbM",
+    "bundesland_name": "Baden-Württemberg",
+    "lat": 48.6416,
+    "lon": 9.3669
+  },
+  {
+    "idx": 10,
+    "uid": "OzGoIHwfCnF",
+    "name": "Freiburg",
+    "bundesland_uid": "DqYmO9PfYbM",
+    "bundesland_name": "Baden-Württemberg",
+    "lat": 47.9886,
+    "lon": 7.8155
+  },
+  {
+    "idx": 11,
+    "uid": "W57yiEdGick",
+    "name": "Freudenstadt",
+    "bundesland_uid": "DqYmO9PfYbM",
+    "bundesland_name": "Baden-Württemberg",
+    "lat": 48.4759,
+    "lon": 8.482
+  },
+  {
+    "idx": 12,
+    "uid": "jkR9TpohXsw",
+    "name": "Göppingen",
+    "bundesland_uid": "DqYmO9PfYbM",
+    "bundesland_name": "Baden-Württemberg",
+    "lat": 48.6726,
+    "lon": 9.7272
+  },
+  {
+    "idx": 13,
+    "uid": "C2Iica12me3",
+    "name": "Heidelberg Städte",
+    "bundesland_uid": "DqYmO9PfYbM",
+    "bundesland_name": "Baden-Württemberg",
+    "lat": 49.4079,
+    "lon": 8.6886
+  },
+  {
+    "idx": 14,
+    "uid": "LO4m5Y1KcTh",
+    "name": "Heidenheim",
+    "bundesland_uid": "DqYmO9PfYbM",
+    "bundesland_name": "Baden-Württemberg",
+    "lat": 48.6703,
+    "lon": 10.2192
+  },
+  {
+    "idx": 15,
+    "uid": "Trlt9Mn4AD7",
+    "name": "Heilbronn",
+    "bundesland_uid": "DqYmO9PfYbM",
+    "bundesland_name": "Baden-Württemberg",
+    "lat": 49.1841,
+    "lon": 9.2178
+  },
+  {
+    "idx": 16,
+    "uid": "GdcVSNzmCWC",
+    "name": "Heilbronn city Städte",
+    "bundesland_uid": "DqYmO9PfYbM",
+    "bundesland_name": "Baden-Württemberg",
+    "lat": 49.1509,
+    "lon": 9.1885
+  },
+  {
+    "idx": 17,
+    "uid": "a8mGD2cAgup",
+    "name": "Hohenlohe",
+    "bundesland_uid": "DqYmO9PfYbM",
+    "bundesland_name": "Baden-Württemberg",
+    "lat": 49.252,
+    "lon": 9.6082
+  },
+  {
+    "idx": 18,
+    "uid": "GmYN5E0a2LW",
+    "name": "Karlsruhe",
+    "bundesland_uid": "DqYmO9PfYbM",
+    "bundesland_name": "Baden-Württemberg",
+    "lat": 49.114,
+    "lon": 8.6267
+  },
+  {
+    "idx": 19,
+    "uid": "zxkLwId8re7",
+    "name": "Karlsruhe Städte",
+    "bundesland_uid": "DqYmO9PfYbM",
+    "bundesland_name": "Baden-Württemberg",
+    "lat": 49.0111,
+    "lon": 8.4185
+  },
+  {
+    "idx": 20,
+    "uid": "dutyfaEsrdz",
+    "name": "Konstanz",
+    "bundesland_uid": "DqYmO9PfYbM",
+    "bundesland_name": "Baden-Württemberg",
+    "lat": 47.7825,
+    "lon": 8.8995
+  },
+  {
+    "idx": 21,
+    "uid": "dBXsjBKvuYE",
+    "name": "Ludwigsburg",
+    "bundesland_uid": "DqYmO9PfYbM",
+    "bundesland_name": "Baden-Württemberg",
+    "lat": 48.9356,
+    "lon": 9.1438
+  },
+  {
+    "idx": 22,
+    "uid": "SsUtrHQvkDQ",
+    "name": "Lörrach",
+    "bundesland_uid": "DqYmO9PfYbM",
+    "bundesland_name": "Baden-Württemberg",
+    "lat": 47.7058,
+    "lon": 7.7914
+  },
+  {
+    "idx": 23,
+    "uid": "WQGSSRA9Sx7",
+    "name": "Main-Tauber",
+    "bundesland_uid": "DqYmO9PfYbM",
+    "bundesland_name": "Baden-Württemberg",
+    "lat": 49.5685,
+    "lon": 9.7341
+  },
+  {
+    "idx": 24,
+    "uid": "KKmmwC8hQzq",
+    "name": "Mannheim Städte",
+    "bundesland_uid": "DqYmO9PfYbM",
+    "bundesland_name": "Baden-Württemberg",
+    "lat": 49.4862,
+    "lon": 8.5163
+  },
+  {
+    "idx": 25,
+    "uid": "BXe5CBb7MF9",
+    "name": "Neckar-Odenwald-Kreis",
+    "bundesland_uid": "DqYmO9PfYbM",
+    "bundesland_name": "Baden-Württemberg",
+    "lat": 49.4679,
+    "lon": 9.3047
+  },
+  {
+    "idx": 26,
+    "uid": "jCo4FHaIKK9",
+    "name": "Ortenaukreis",
+    "bundesland_uid": "DqYmO9PfYbM",
+    "bundesland_name": "Baden-Württemberg",
+    "lat": 48.3949,
+    "lon": 8.1038
+  },
+  {
+    "idx": 27,
+    "uid": "qLmdInpL0Bn",
+    "name": "Ostalbkreis",
+    "bundesland_uid": "DqYmO9PfYbM",
+    "bundesland_name": "Baden-Württemberg",
+    "lat": 48.8787,
+    "lon": 10.0595
+  },
+  {
+    "idx": 28,
+    "uid": "WOGqRDblQUj",
+    "name": "Pforzheim Städte",
+    "bundesland_uid": "DqYmO9PfYbM",
+    "bundesland_name": "Baden-Württemberg",
+    "lat": 48.8742,
+    "lon": 8.7162
+  },
+  {
+    "idx": 29,
+    "uid": "Da1W4JTfmVC",
+    "name": "Rastatt",
+    "bundesland_uid": "DqYmO9PfYbM",
+    "bundesland_name": "Baden-Württemberg",
+    "lat": 48.7477,
+    "lon": 8.289
+  },
+  {
+    "idx": 30,
+    "uid": "atU8RdMXlZG",
+    "name": "Ravensburg",
+    "bundesland_uid": "DqYmO9PfYbM",
+    "bundesland_name": "Baden-Württemberg",
+    "lat": 47.8266,
+    "lon": 9.791
+  },
+  {
+    "idx": 31,
+    "uid": "CmDM3mFbGBC",
+    "name": "Rems-Murr-Kreis",
+    "bundesland_uid": "DqYmO9PfYbM",
+    "bundesland_name": "Baden-Württemberg",
+    "lat": 48.8979,
+    "lon": 9.518
+  },
+  {
+    "idx": 32,
+    "uid": "ZGzJYJAXLFx",
+    "name": "Reutlingen",
+    "bundesland_uid": "DqYmO9PfYbM",
+    "bundesland_name": "Baden-Württemberg",
+    "lat": 48.4217,
+    "lon": 9.3529
+  },
+  {
+    "idx": 33,
+    "uid": "q1XOgWfLRWG",
+    "name": "Rhein-Neckar-Kreis",
+    "bundesland_uid": "DqYmO9PfYbM",
+    "bundesland_name": "Baden-Württemberg",
+    "lat": 49.4152,
+    "lon": 8.7845
+  },
+  {
+    "idx": 34,
+    "uid": "QLhsHwyf2B7",
+    "name": "Rottweil",
+    "bundesland_uid": "DqYmO9PfYbM",
+    "bundesland_name": "Baden-Württemberg",
+    "lat": 48.2564,
+    "lon": 8.5328
+  },
+  {
+    "idx": 35,
+    "uid": "XcTN6fkpZ3A",
+    "name": "Schwarzwald-Baar-Kreis",
+    "bundesland_uid": "DqYmO9PfYbM",
+    "bundesland_name": "Baden-Württemberg",
+    "lat": 48.0038,
+    "lon": 8.4114
+  },
+  {
+    "idx": 36,
+    "uid": "JtsvPtGZLGp",
+    "name": "Schwäbisch Hall",
+    "bundesland_uid": "DqYmO9PfYbM",
+    "bundesland_name": "Baden-Württemberg",
+    "lat": 49.1419,
+    "lon": 9.9157
+  },
+  {
+    "idx": 37,
+    "uid": "vDrB5yZEX5w",
+    "name": "Sigmaringen",
+    "bundesland_uid": "DqYmO9PfYbM",
+    "bundesland_name": "Baden-Württemberg",
+    "lat": 48.0408,
+    "lon": 9.256
+  },
+  {
+    "idx": 38,
+    "uid": "GRBroZaAk2w",
+    "name": "Stuttgart Städte",
+    "bundesland_uid": "DqYmO9PfYbM",
+    "bundesland_name": "Baden-Württemberg",
+    "lat": 48.7807,
+    "lon": 9.1689
+  },
+  {
+    "idx": 39,
+    "uid": "mRxh2ZsF5j6",
+    "name": "Tuttlingen",
+    "bundesland_uid": "DqYmO9PfYbM",
+    "bundesland_name": "Baden-Württemberg",
+    "lat": 48.0048,
+    "lon": 8.7879
+  },
+  {
+    "idx": 40,
+    "uid": "rSB3OTQm4KP",
+    "name": "Tübingen",
+    "bundesland_uid": "DqYmO9PfYbM",
+    "bundesland_name": "Baden-Württemberg",
+    "lat": 48.4923,
+    "lon": 8.9793
+  },
+  {
+    "idx": 41,
+    "uid": "ghaTNCbmD1X",
+    "name": "Ulm Städte",
+    "bundesland_uid": "DqYmO9PfYbM",
+    "bundesland_name": "Baden-Württemberg",
+    "lat": 48.3947,
+    "lon": 9.952
+  },
+  {
+    "idx": 42,
+    "uid": "cIUqf9HKPxf",
+    "name": "Waldshut",
+    "bundesland_uid": "DqYmO9PfYbM",
+    "bundesland_name": "Baden-Württemberg",
+    "lat": 47.6942,
+    "lon": 8.2928
+  },
+  {
+    "idx": 43,
+    "uid": "N9Ur2hxdx7z",
+    "name": "Zollernalbkreis",
+    "bundesland_uid": "DqYmO9PfYbM",
+    "bundesland_name": "Baden-Württemberg",
+    "lat": 48.267,
+    "lon": 8.9364
+  },
+  {
+    "idx": 44,
+    "uid": "exHUmmr2SZu",
+    "name": "Aichach-Friedberg",
+    "bundesland_uid": "FGE1fIzw6BE",
+    "bundesland_name": "Bayern",
+    "lat": 48.4087,
+    "lon": 11.0723
+  },
+  {
+    "idx": 45,
+    "uid": "UsueQ3IThsm",
+    "name": "Altötting",
+    "bundesland_uid": "FGE1fIzw6BE",
+    "bundesland_name": "Bayern",
+    "lat": 48.2247,
+    "lon": 12.7084
+  },
+  {
+    "idx": 46,
+    "uid": "QwADLBmHNwB",
+    "name": "Amberg Städte",
+    "bundesland_uid": "FGE1fIzw6BE",
+    "bundesland_name": "Bayern",
+    "lat": 49.4567,
+    "lon": 11.8469
+  },
+  {
+    "idx": 47,
+    "uid": "kT4NvSEygrR",
+    "name": "Amberg-Sulzbach",
+    "bundesland_uid": "FGE1fIzw6BE",
+    "bundesland_name": "Bayern",
+    "lat": 49.4923,
+    "lon": 11.8047
+  },
+  {
+    "idx": 48,
+    "uid": "X2f0AvuL0lM",
+    "name": "Ansbach",
+    "bundesland_uid": "FGE1fIzw6BE",
+    "bundesland_name": "Bayern",
+    "lat": 49.2504,
+    "lon": 10.4535
+  },
+  {
+    "idx": 49,
+    "uid": "v4zGndSdYFg",
+    "name": "Ansbach Städte",
+    "bundesland_uid": "FGE1fIzw6BE",
+    "bundesland_name": "Bayern",
+    "lat": 49.2872,
+    "lon": 10.5659
+  },
+  {
+    "idx": 50,
+    "uid": "p2OVTaFrCOg",
+    "name": "Aschaffenburg",
+    "bundesland_uid": "FGE1fIzw6BE",
+    "bundesland_name": "Bayern",
+    "lat": 49.9884,
+    "lon": 9.228
+  },
+  {
+    "idx": 51,
+    "uid": "GcFCeEEbMbt",
+    "name": "Aschaffenburg Städte",
+    "bundesland_uid": "FGE1fIzw6BE",
+    "bundesland_name": "Bayern",
+    "lat": 49.9706,
+    "lon": 9.1637
+  },
+  {
+    "idx": 52,
+    "uid": "JFboPkOfv6x",
+    "name": "Augsburg",
+    "bundesland_uid": "FGE1fIzw6BE",
+    "bundesland_name": "Bayern",
+    "lat": 48.3482,
+    "lon": 10.7335
+  },
+  {
+    "idx": 53,
+    "uid": "j7hLz64sNXO",
+    "name": "Augsburg Städte",
+    "bundesland_uid": "FGE1fIzw6BE",
+    "bundesland_name": "Bayern",
+    "lat": 48.3438,
+    "lon": 10.8777
+  },
+  {
+    "idx": 54,
+    "uid": "SnqX3KzsdOT",
+    "name": "Bad Kissingen",
+    "bundesland_uid": "FGE1fIzw6BE",
+    "bundesland_name": "Bayern",
+    "lat": 50.2276,
+    "lon": 9.9991
+  },
+  {
+    "idx": 55,
+    "uid": "Lpk4B77KZF7",
+    "name": "Bad Tölz-Wolfratshausen",
+    "bundesland_uid": "FGE1fIzw6BE",
+    "bundesland_name": "Bayern",
+    "lat": 47.7445,
+    "lon": 11.495
+  },
+  {
+    "idx": 56,
+    "uid": "OwMJsD8onvt",
+    "name": "Bamberg",
+    "bundesland_uid": "FGE1fIzw6BE",
+    "bundesland_name": "Bayern",
+    "lat": 49.9007,
+    "lon": 10.8668
+  },
+  {
+    "idx": 57,
+    "uid": "lPOZn8sVoUp",
+    "name": "Bamberg Städte",
+    "bundesland_uid": "FGE1fIzw6BE",
+    "bundesland_name": "Bayern",
+    "lat": 49.884,
+    "lon": 10.9004
+  },
+  {
+    "idx": 58,
+    "uid": "jbCIJ4BHRMI",
+    "name": "Bayreuth",
+    "bundesland_uid": "FGE1fIzw6BE",
+    "bundesland_name": "Bayern",
+    "lat": 49.8976,
+    "lon": 11.5581
+  },
+  {
+    "idx": 59,
+    "uid": "fgocMD3toPa",
+    "name": "Bayreuth Städte",
+    "bundesland_uid": "FGE1fIzw6BE",
+    "bundesland_name": "Bayern",
+    "lat": 49.9359,
+    "lon": 11.5865
+  },
+  {
+    "idx": 60,
+    "uid": "EsT1tEsZk4x",
+    "name": "Berchtesgadener Land",
+    "bundesland_uid": "FGE1fIzw6BE",
+    "bundesland_name": "Bayern",
+    "lat": 47.7264,
+    "lon": 12.879
+  },
+  {
+    "idx": 61,
+    "uid": "zMAImuSWIOK",
+    "name": "Cham",
+    "bundesland_uid": "FGE1fIzw6BE",
+    "bundesland_name": "Bayern",
+    "lat": 49.2244,
+    "lon": 12.6978
+  },
+  {
+    "idx": 62,
+    "uid": "sNrinbWPIBQ",
+    "name": "Coburg",
+    "bundesland_uid": "FGE1fIzw6BE",
+    "bundesland_name": "Bayern",
+    "lat": 50.2525,
+    "lon": 10.9471
+  },
+  {
+    "idx": 63,
+    "uid": "iZE4r6GWzSk",
+    "name": "Coburg Städte",
+    "bundesland_uid": "FGE1fIzw6BE",
+    "bundesland_name": "Bayern",
+    "lat": 50.261,
+    "lon": 10.97
+  },
+  {
+    "idx": 64,
+    "uid": "NuPUQEdrHn3",
+    "name": "Dachau",
+    "bundesland_uid": "FGE1fIzw6BE",
+    "bundesland_name": "Bayern",
+    "lat": 48.3389,
+    "lon": 11.3385
+  },
+  {
+    "idx": 65,
+    "uid": "xKNPyeLnfWO",
+    "name": "Deggendorf",
+    "bundesland_uid": "FGE1fIzw6BE",
+    "bundesland_name": "Bayern",
+    "lat": 48.788,
+    "lon": 13.0138
+  },
+  {
+    "idx": 66,
+    "uid": "cftmgjZ7Nod",
+    "name": "Dillingen",
+    "bundesland_uid": "FGE1fIzw6BE",
+    "bundesland_name": "Bayern",
+    "lat": 48.6121,
+    "lon": 10.5288
+  },
+  {
+    "idx": 67,
+    "uid": "wW4wCUKEps0",
+    "name": "Dingolfing-Landau",
+    "bundesland_uid": "FGE1fIzw6BE",
+    "bundesland_name": "Bayern",
+    "lat": 48.6365,
+    "lon": 12.6211
+  },
+  {
+    "idx": 68,
+    "uid": "q4g0keVHG2L",
+    "name": "Donau-Ries",
+    "bundesland_uid": "FGE1fIzw6BE",
+    "bundesland_name": "Bayern",
+    "lat": 48.812,
+    "lon": 10.6969
+  },
+  {
+    "idx": 69,
+    "uid": "KZ66l8JuNOm",
+    "name": "Ebersberg",
+    "bundesland_uid": "FGE1fIzw6BE",
+    "bundesland_name": "Bayern",
+    "lat": 48.0726,
+    "lon": 11.9262
+  },
+  {
+    "idx": 70,
+    "uid": "J6uIQXjDMWY",
+    "name": "Eichstätt",
+    "bundesland_uid": "FGE1fIzw6BE",
+    "bundesland_name": "Bayern",
+    "lat": 48.8951,
+    "lon": 11.4047
+  },
+  {
+    "idx": 71,
+    "uid": "J8d4dWjZWbp",
+    "name": "Erding",
+    "bundesland_uid": "FGE1fIzw6BE",
+    "bundesland_name": "Bayern",
+    "lat": 48.286,
+    "lon": 12.0245
+  },
+  {
+    "idx": 72,
+    "uid": "QzMndLig6LQ",
+    "name": "Erlangen Städte",
+    "bundesland_uid": "FGE1fIzw6BE",
+    "bundesland_name": "Bayern",
+    "lat": 49.5854,
+    "lon": 10.9846
+  },
+  {
+    "idx": 73,
+    "uid": "oHS7kitv0QE",
+    "name": "Erlangen-Höchstadt",
+    "bundesland_uid": "FGE1fIzw6BE",
+    "bundesland_name": "Bayern",
+    "lat": 49.6283,
+    "lon": 10.9642
+  },
+  {
+    "idx": 74,
+    "uid": "EhZBZzpVPHq",
+    "name": "Forchheim",
+    "bundesland_uid": "FGE1fIzw6BE",
+    "bundesland_name": "Bayern",
+    "lat": 49.7245,
+    "lon": 11.1763
+  },
+  {
+    "idx": 75,
+    "uid": "Dks0rRFnwjW",
+    "name": "Freising",
+    "bundesland_uid": "FGE1fIzw6BE",
+    "bundesland_name": "Bayern",
+    "lat": 48.457,
+    "lon": 11.7721
+  },
+  {
+    "idx": 76,
+    "uid": "KNJnrFO0MKk",
+    "name": "Freyung-Grafenau",
+    "bundesland_uid": "FGE1fIzw6BE",
+    "bundesland_name": "Bayern",
+    "lat": 48.829,
+    "lon": 13.502
+  },
+  {
+    "idx": 77,
+    "uid": "XfJxqAjIHCc",
+    "name": "Fürstenfeldbruck",
+    "bundesland_uid": "FGE1fIzw6BE",
+    "bundesland_name": "Bayern",
+    "lat": 48.182,
+    "lon": 11.1979
+  },
+  {
+    "idx": 78,
+    "uid": "gx36B6G1iwF",
+    "name": "Fürth",
+    "bundesland_uid": "FGE1fIzw6BE",
+    "bundesland_name": "Bayern",
+    "lat": 49.4509,
+    "lon": 10.8654
+  },
+  {
+    "idx": 79,
+    "uid": "tPD3XR4Yodw",
+    "name": "Fürth Städte",
+    "bundesland_uid": "FGE1fIzw6BE",
+    "bundesland_name": "Bayern",
+    "lat": 49.49,
+    "lon": 10.9744
+  },
+  {
+    "idx": 80,
+    "uid": "xkiEa4bHiLk",
+    "name": "Garmisch-Partenkirchen",
+    "bundesland_uid": "FGE1fIzw6BE",
+    "bundesland_name": "Bayern",
+    "lat": 47.5705,
+    "lon": 11.1453
+  },
+  {
+    "idx": 81,
+    "uid": "tibLuePUyIk",
+    "name": "Günzburg",
+    "bundesland_uid": "FGE1fIzw6BE",
+    "bundesland_name": "Bayern",
+    "lat": 48.3559,
+    "lon": 10.3929
+  },
+  {
+    "idx": 82,
+    "uid": "frMGzoyRkYH",
+    "name": "Haßberge",
+    "bundesland_uid": "FGE1fIzw6BE",
+    "bundesland_name": "Bayern",
+    "lat": 50.0328,
+    "lon": 10.6048
+  },
+  {
+    "idx": 83,
+    "uid": "KbXSYBCq1z8",
+    "name": "Hof",
+    "bundesland_uid": "FGE1fIzw6BE",
+    "bundesland_name": "Bayern",
+    "lat": 50.264,
+    "lon": 11.8219
+  },
+  {
+    "idx": 84,
+    "uid": "le4cFBbLadQ",
+    "name": "Hof Städte",
+    "bundesland_uid": "FGE1fIzw6BE",
+    "bundesland_name": "Bayern",
+    "lat": 50.3244,
+    "lon": 11.886
+  },
+  {
+    "idx": 85,
+    "uid": "WeWuH7KUd3v",
+    "name": "Ingolstadt Städte",
+    "bundesland_uid": "FGE1fIzw6BE",
+    "bundesland_name": "Bayern",
+    "lat": 48.7538,
+    "lon": 11.3913
+  },
+  {
+    "idx": 86,
+    "uid": "qJg8iLWkUUf",
+    "name": "Kaufbeuren Städte",
+    "bundesland_uid": "FGE1fIzw6BE",
+    "bundesland_name": "Bayern",
+    "lat": 47.8847,
+    "lon": 10.6112
+  },
+  {
+    "idx": 87,
+    "uid": "FysmaZxr2jI",
+    "name": "Kelheim",
+    "bundesland_uid": "FGE1fIzw6BE",
+    "bundesland_name": "Bayern",
+    "lat": 48.8374,
+    "lon": 11.8463
+  },
+  {
+    "idx": 88,
+    "uid": "fLRUTeTo7ec",
+    "name": "Kempten Städte",
+    "bundesland_uid": "FGE1fIzw6BE",
+    "bundesland_name": "Bayern",
+    "lat": 47.7417,
+    "lon": 10.3094
+  },
+  {
+    "idx": 89,
+    "uid": "IebgXTME4Zn",
+    "name": "Kitzingen",
+    "bundesland_uid": "FGE1fIzw6BE",
+    "bundesland_name": "Bayern",
+    "lat": 49.7486,
+    "lon": 10.2882
+  },
+  {
+    "idx": 90,
+    "uid": "No1wivp6YEk",
+    "name": "Kronach",
+    "bundesland_uid": "FGE1fIzw6BE",
+    "bundesland_name": "Bayern",
+    "lat": 50.3359,
+    "lon": 11.3764
+  },
+  {
+    "idx": 91,
+    "uid": "todhsmzzgQO",
+    "name": "Kulmbach",
+    "bundesland_uid": "FGE1fIzw6BE",
+    "bundesland_name": "Bayern",
+    "lat": 50.1014,
+    "lon": 11.4923
+  },
+  {
+    "idx": 92,
+    "uid": "BXUMUg1myVN",
+    "name": "Landsberg",
+    "bundesland_uid": "FGE1fIzw6BE",
+    "bundesland_name": "Bayern",
+    "lat": 48.0245,
+    "lon": 10.942
+  },
+  {
+    "idx": 93,
+    "uid": "ux1jzYK5hIx",
+    "name": "Landshut",
+    "bundesland_uid": "FGE1fIzw6BE",
+    "bundesland_name": "Bayern",
+    "lat": 48.5516,
+    "lon": 12.2014
+  },
+  {
+    "idx": 94,
+    "uid": "QUodkkcV7D4",
+    "name": "Landshut Städte",
+    "bundesland_uid": "FGE1fIzw6BE",
+    "bundesland_name": "Bayern",
+    "lat": 48.5436,
+    "lon": 12.1642
+  },
+  {
+    "idx": 95,
+    "uid": "WGOvbhhOwbP",
+    "name": "Lichtenfels",
+    "bundesland_uid": "FGE1fIzw6BE",
+    "bundesland_name": "Bayern",
+    "lat": 50.0977,
+    "lon": 11.1272
+  },
+  {
+    "idx": 96,
+    "uid": "ZflR7W2mq4G",
+    "name": "Lindau",
+    "bundesland_uid": "FGE1fIzw6BE",
+    "bundesland_name": "Bayern",
+    "lat": 47.5975,
+    "lon": 9.8456
+  },
+  {
+    "idx": 97,
+    "uid": "ol4q0fI9laL",
+    "name": "Main-Spessart",
+    "bundesland_uid": "FGE1fIzw6BE",
+    "bundesland_name": "Bayern",
+    "lat": 49.9916,
+    "lon": 9.6662
+  },
+  {
+    "idx": 98,
+    "uid": "S6niQQhf6SP",
+    "name": "Memmingen Städte",
+    "bundesland_uid": "FGE1fIzw6BE",
+    "bundesland_name": "Bayern",
+    "lat": 47.9836,
+    "lon": 10.1693
+  },
+  {
+    "idx": 99,
+    "uid": "BHQYwuZm6HH",
+    "name": "Miesbach",
+    "bundesland_uid": "FGE1fIzw6BE",
+    "bundesland_name": "Bayern",
+    "lat": 47.7442,
+    "lon": 11.8088
+  },
+  {
+    "idx": 100,
+    "uid": "FQI4iLJSK22",
+    "name": "Miltenberg",
+    "bundesland_uid": "FGE1fIzw6BE",
+    "bundesland_name": "Bayern",
+    "lat": 49.774,
+    "lon": 9.254
+  },
+  {
+    "idx": 101,
+    "uid": "ZlmiDsopKoM",
+    "name": "Munich Städte",
+    "bundesland_uid": "FGE1fIzw6BE",
+    "bundesland_name": "Bayern",
+    "lat": 48.1538,
+    "lon": 11.5577
+  },
+  {
+    "idx": 102,
+    "uid": "JmyFwk2hCdV",
+    "name": "Mühldorf",
+    "bundesland_uid": "FGE1fIzw6BE",
+    "bundesland_name": "Bayern",
+    "lat": 48.2389,
+    "lon": 12.3697
+  },
+  {
+    "idx": 103,
+    "uid": "h8eEwXiJEyE",
+    "name": "München",
+    "bundesland_uid": "FGE1fIzw6BE",
+    "bundesland_name": "Bayern",
+    "lat": 48.0907,
+    "lon": 11.6243
+  },
+  {
+    "idx": 104,
+    "uid": "MzaNoO1S6a8",
+    "name": "Neu-Ulm",
+    "bundesland_uid": "FGE1fIzw6BE",
+    "bundesland_name": "Bayern",
+    "lat": 48.3026,
+    "lon": 10.1546
+  },
+  {
+    "idx": 105,
+    "uid": "MoDdZZ2Bg2B",
+    "name": "Neuburg-Schrobenhausen",
+    "bundesland_uid": "FGE1fIzw6BE",
+    "bundesland_name": "Bayern",
+    "lat": 48.6601,
+    "lon": 11.203
+  },
+  {
+    "idx": 106,
+    "uid": "d7PnPsH4bHD",
+    "name": "Neumarkt",
+    "bundesland_uid": "FGE1fIzw6BE",
+    "bundesland_name": "Bayern",
+    "lat": 49.2159,
+    "lon": 11.539
+  },
+  {
+    "idx": 107,
+    "uid": "cZQz7cRS3bZ",
+    "name": "Neustadt",
+    "bundesland_uid": "FGE1fIzw6BE",
+    "bundesland_name": "Bayern",
+    "lat": 49.6859,
+    "lon": 12.1548
+  },
+  {
+    "idx": 108,
+    "uid": "cFASCthES4R",
+    "name": "Neustadt-Bad Windsheim",
+    "bundesland_uid": "FGE1fIzw6BE",
+    "bundesland_name": "Bayern",
+    "lat": 49.5622,
+    "lon": 10.4608
+  },
+  {
+    "idx": 109,
+    "uid": "iujKwOLL9hA",
+    "name": "Nuremberg Städte",
+    "bundesland_uid": "FGE1fIzw6BE",
+    "bundesland_name": "Bayern",
+    "lat": 49.4397,
+    "lon": 11.0847
+  },
+  {
+    "idx": 110,
+    "uid": "JJ173Dq93De",
+    "name": "Nürnberger Land",
+    "bundesland_uid": "FGE1fIzw6BE",
+    "bundesland_name": "Bayern",
+    "lat": 49.5018,
+    "lon": 11.3833
+  },
+  {
+    "idx": 111,
+    "uid": "i2EvcOMhqIM",
+    "name": "Oberallgäu",
+    "bundesland_uid": "FGE1fIzw6BE",
+    "bundesland_name": "Bayern",
+    "lat": 47.5781,
+    "lon": 10.2392
+  },
+  {
+    "idx": 112,
+    "uid": "rxPeOsLxyMt",
+    "name": "Ostallgäu",
+    "bundesland_uid": "FGE1fIzw6BE",
+    "bundesland_name": "Bayern",
+    "lat": 47.8094,
+    "lon": 10.6473
+  },
+  {
+    "idx": 113,
+    "uid": "kiswXP9fE6K",
+    "name": "Passau",
+    "bundesland_uid": "FGE1fIzw6BE",
+    "bundesland_name": "Bayern",
+    "lat": 48.5756,
+    "lon": 13.3604
+  },
+  {
+    "idx": 114,
+    "uid": "Jc4QrsZ3rf0",
+    "name": "Passau Städte",
+    "bundesland_uid": "FGE1fIzw6BE",
+    "bundesland_name": "Bayern",
+    "lat": 48.5903,
+    "lon": 13.4149
+  },
+  {
+    "idx": 115,
+    "uid": "HnmiwdcV3ep",
+    "name": "Pfaffenhofen",
+    "bundesland_uid": "FGE1fIzw6BE",
+    "bundesland_name": "Bayern",
+    "lat": 48.6081,
+    "lon": 11.5214
+  },
+  {
+    "idx": 116,
+    "uid": "C75Jrl63yB2",
+    "name": "Regen",
+    "bundesland_uid": "FGE1fIzw6BE",
+    "bundesland_name": "Bayern",
+    "lat": 49.0351,
+    "lon": 13.0845
+  },
+  {
+    "idx": 117,
+    "uid": "KTgxmcUJ4up",
+    "name": "Regensburg",
+    "bundesland_uid": "FGE1fIzw6BE",
+    "bundesland_name": "Bayern",
+    "lat": 49.0145,
+    "lon": 12.1042
+  },
+  {
+    "idx": 118,
+    "uid": "CTP10FEBvs7",
+    "name": "Regensburg Städte",
+    "bundesland_uid": "FGE1fIzw6BE",
+    "bundesland_name": "Bayern",
+    "lat": 49.0173,
+    "lon": 12.1041
+  },
+  {
+    "idx": 119,
+    "uid": "hKOQw8IWPvc",
+    "name": "Rhön-Grabfeld",
+    "bundesland_uid": "FGE1fIzw6BE",
+    "bundesland_name": "Bayern",
+    "lat": 50.355,
+    "lon": 10.2849
+  },
+  {
+    "idx": 120,
+    "uid": "dETdsHSdHiA",
+    "name": "Rosenheim",
+    "bundesland_uid": "FGE1fIzw6BE",
+    "bundesland_name": "Bayern",
+    "lat": 47.8952,
+    "lon": 12.1695
+  },
+  {
+    "idx": 121,
+    "uid": "ZznOD3ixknZ",
+    "name": "Rosenheim Städte",
+    "bundesland_uid": "FGE1fIzw6BE",
+    "bundesland_name": "Bayern",
+    "lat": 47.8439,
+    "lon": 12.1078
+  },
+  {
+    "idx": 122,
+    "uid": "yyQVyy5mNGa",
+    "name": "Roth",
+    "bundesland_uid": "FGE1fIzw6BE",
+    "bundesland_name": "Bayern",
+    "lat": 49.2178,
+    "lon": 11.1477
+  },
+  {
+    "idx": 123,
+    "uid": "E7Aaiu3Ao1F",
+    "name": "Rottal-Inn",
+    "bundesland_uid": "FGE1fIzw6BE",
+    "bundesland_name": "Bayern",
+    "lat": 48.4431,
+    "lon": 12.8356
+  },
+  {
+    "idx": 124,
+    "uid": "XmSgCvBzfxW",
+    "name": "Schwabach Städte",
+    "bundesland_uid": "FGE1fIzw6BE",
+    "bundesland_name": "Bayern",
+    "lat": 49.3335,
+    "lon": 11.0313
+  },
+  {
+    "idx": 125,
+    "uid": "HKpK1BJwuHK",
+    "name": "Schwandorf",
+    "bundesland_uid": "FGE1fIzw6BE",
+    "bundesland_name": "Bayern",
+    "lat": 49.3679,
+    "lon": 12.2538
+  },
+  {
+    "idx": 126,
+    "uid": "Nh5VjTCx4IZ",
+    "name": "Schweinfurt",
+    "bundesland_uid": "FGE1fIzw6BE",
+    "bundesland_name": "Bayern",
+    "lat": 50.0068,
+    "lon": 10.2985
+  },
+  {
+    "idx": 127,
+    "uid": "i64a4ZXUDNV",
+    "name": "Schweinfurt Städte",
+    "bundesland_uid": "FGE1fIzw6BE",
+    "bundesland_name": "Bayern",
+    "lat": 50.0478,
+    "lon": 10.2271
+  },
+  {
+    "idx": 128,
+    "uid": "cwe5jdGZTsQ",
+    "name": "Starnberg",
+    "bundesland_uid": "FGE1fIzw6BE",
+    "bundesland_name": "Bayern",
+    "lat": 47.994,
+    "lon": 11.2877
+  },
+  {
+    "idx": 129,
+    "uid": "k23U3jeVaFU",
+    "name": "Straubing Städte",
+    "bundesland_uid": "FGE1fIzw6BE",
+    "bundesland_name": "Bayern",
+    "lat": 48.8866,
+    "lon": 12.5852
+  },
+  {
+    "idx": 130,
+    "uid": "qLJD9hETYsR",
+    "name": "Straubing-Bogen",
+    "bundesland_uid": "FGE1fIzw6BE",
+    "bundesland_name": "Bayern",
+    "lat": 48.8836,
+    "lon": 12.5339
+  },
+  {
+    "idx": 131,
+    "uid": "GHMA2M3oS7m",
+    "name": "Tirschenreuth",
+    "bundesland_uid": "FGE1fIzw6BE",
+    "bundesland_name": "Bayern",
+    "lat": 49.8886,
+    "lon": 12.2001
+  },
+  {
+    "idx": 132,
+    "uid": "SYoxouxJMMt",
+    "name": "Traunstein",
+    "bundesland_uid": "FGE1fIzw6BE",
+    "bundesland_name": "Bayern",
+    "lat": 47.9175,
+    "lon": 12.5694
+  },
+  {
+    "idx": 133,
+    "uid": "d7m3EoU7FRj",
+    "name": "Unterallgäu",
+    "bundesland_uid": "FGE1fIzw6BE",
+    "bundesland_name": "Bayern",
+    "lat": 48.0317,
+    "lon": 10.3654
+  },
+  {
+    "idx": 134,
+    "uid": "cZ9QOeJR010",
+    "name": "Weiden Städte",
+    "bundesland_uid": "FGE1fIzw6BE",
+    "bundesland_name": "Bayern",
+    "lat": 49.667,
+    "lon": 12.1644
+  },
+  {
+    "idx": 135,
+    "uid": "NRBMC8jAryF",
+    "name": "Weilheim-Schongau",
+    "bundesland_uid": "FGE1fIzw6BE",
+    "bundesland_name": "Bayern",
+    "lat": 47.7843,
+    "lon": 11.0533
+  },
+  {
+    "idx": 136,
+    "uid": "da4DvRNqPy8",
+    "name": "Weißenburg-Gunzenhausen",
+    "bundesland_uid": "FGE1fIzw6BE",
+    "bundesland_name": "Bayern",
+    "lat": 49.0254,
+    "lon": 10.8859
+  },
+  {
+    "idx": 137,
+    "uid": "xyxcjOyNlCC",
+    "name": "Wunsiedel",
+    "bundesland_uid": "FGE1fIzw6BE",
+    "bundesland_name": "Bayern",
+    "lat": 50.0974,
+    "lon": 12.0343
+  },
+  {
+    "idx": 138,
+    "uid": "VwCeU0rj3Yv",
+    "name": "Würzburg",
+    "bundesland_uid": "FGE1fIzw6BE",
+    "bundesland_name": "Bayern",
+    "lat": 49.7193,
+    "lon": 9.9332
+  },
+  {
+    "idx": 139,
+    "uid": "ZBbAzmBzaL7",
+    "name": "Würzburg Städte",
+    "bundesland_uid": "FGE1fIzw6BE",
+    "bundesland_name": "Bayern",
+    "lat": 49.7758,
+    "lon": 9.9468
+  },
+  {
+    "idx": 140,
+    "uid": "HuTesyO3Hn9",
+    "name": "Ammerland",
+    "bundesland_uid": "Oe1a2DZbDqa",
+    "bundesland_name": "Niedersachsen",
+    "lat": 53.2112,
+    "lon": 8.0616
+  },
+  {
+    "idx": 141,
+    "uid": "k4Coow5REBy",
+    "name": "Aurich",
+    "bundesland_uid": "Oe1a2DZbDqa",
+    "bundesland_name": "Niedersachsen",
+    "lat": 53.4936,
+    "lon": 7.317
+  },
+  {
+    "idx": 142,
+    "uid": "VuUXiHz4L1a",
+    "name": "Braunschweig Städte",
+    "bundesland_uid": "Oe1a2DZbDqa",
+    "bundesland_name": "Niedersachsen",
+    "lat": 52.2923,
+    "lon": 10.5311
+  },
+  {
+    "idx": 143,
+    "uid": "vONB6LZTutr",
+    "name": "Celle",
+    "bundesland_uid": "Oe1a2DZbDqa",
+    "bundesland_name": "Niedersachsen",
+    "lat": 52.6972,
+    "lon": 10.1041
+  },
+  {
+    "idx": 144,
+    "uid": "Z3lpDpWbp0T",
+    "name": "Cloppenburg",
+    "bundesland_uid": "Oe1a2DZbDqa",
+    "bundesland_name": "Niedersachsen",
+    "lat": 52.9106,
+    "lon": 7.9107
+  },
+  {
+    "idx": 145,
+    "uid": "WYN7AgAX3ie",
+    "name": "Cuxhaven",
+    "bundesland_uid": "Oe1a2DZbDqa",
+    "bundesland_name": "Niedersachsen",
+    "lat": 53.6644,
+    "lon": 8.7416
+  },
+  {
+    "idx": 146,
+    "uid": "EBtFl20OXL6",
+    "name": "Diepholz",
+    "bundesland_uid": "Oe1a2DZbDqa",
+    "bundesland_name": "Niedersachsen",
+    "lat": 52.755,
+    "lon": 8.754
+  },
+  {
+    "idx": 147,
+    "uid": "YFa9wf1nxmN",
+    "name": "Emden Städte",
+    "bundesland_uid": "Oe1a2DZbDqa",
+    "bundesland_name": "Niedersachsen",
+    "lat": 53.353,
+    "lon": 7.2117
+  },
+  {
+    "idx": 148,
+    "uid": "n7gqgHbxtk8",
+    "name": "Emsland",
+    "bundesland_uid": "Oe1a2DZbDqa",
+    "bundesland_name": "Niedersachsen",
+    "lat": 52.7066,
+    "lon": 7.447
+  },
+  {
+    "idx": 149,
+    "uid": "B93Ryrxr9lA",
+    "name": "Friesland",
+    "bundesland_uid": "Oe1a2DZbDqa",
+    "bundesland_name": "Niedersachsen",
+    "lat": 53.5321,
+    "lon": 8.0346
+  },
+  {
+    "idx": 150,
+    "uid": "HvByQGc5JCV",
+    "name": "Gifhorn",
+    "bundesland_uid": "Oe1a2DZbDqa",
+    "bundesland_name": "Niedersachsen",
+    "lat": 52.5521,
+    "lon": 10.6066
+  },
+  {
+    "idx": 151,
+    "uid": "XDdnUlSsBgX",
+    "name": "Goslar",
+    "bundesland_uid": "Oe1a2DZbDqa",
+    "bundesland_name": "Niedersachsen",
+    "lat": 51.8519,
+    "lon": 10.4166
+  },
+  {
+    "idx": 152,
+    "uid": "Ig7er8FGbXj",
+    "name": "Grafschaft Bentheim",
+    "bundesland_uid": "Oe1a2DZbDqa",
+    "bundesland_name": "Niedersachsen",
+    "lat": 52.4916,
+    "lon": 7.0067
+  },
+  {
+    "idx": 153,
+    "uid": "yM3PtQhfSI8",
+    "name": "Göttingen",
+    "bundesland_uid": "Oe1a2DZbDqa",
+    "bundesland_name": "Niedersachsen",
+    "lat": 51.4789,
+    "lon": 9.9236
+  },
+  {
+    "idx": 154,
+    "uid": "SEikS153XDE",
+    "name": "Hamelin-Pyrmont",
+    "bundesland_uid": "Oe1a2DZbDqa",
+    "bundesland_name": "Niedersachsen",
+    "lat": 52.0798,
+    "lon": 9.417
+  },
+  {
+    "idx": 155,
+    "uid": "l7cOv7Q6BCR",
+    "name": "Hanover",
+    "bundesland_uid": "Oe1a2DZbDqa",
+    "bundesland_name": "Niedersachsen",
+    "lat": 52.4149,
+    "lon": 9.7517
+  },
+  {
+    "idx": 156,
+    "uid": "omtQRzND5rY",
+    "name": "Harburg",
+    "bundesland_uid": "Oe1a2DZbDqa",
+    "bundesland_name": "Niedersachsen",
+    "lat": 53.3445,
+    "lon": 9.9975
+  },
+  {
+    "idx": 157,
+    "uid": "L0QMRqZuKhJ",
+    "name": "Helmstedt",
+    "bundesland_uid": "Oe1a2DZbDqa",
+    "bundesland_name": "Niedersachsen",
+    "lat": 52.2789,
+    "lon": 10.8753
+  },
+  {
+    "idx": 158,
+    "uid": "kGhIi2Db8Zt",
+    "name": "Hildesheim",
+    "bundesland_uid": "Oe1a2DZbDqa",
+    "bundesland_name": "Niedersachsen",
+    "lat": 52.1005,
+    "lon": 9.9183
+  },
+  {
+    "idx": 159,
+    "uid": "YDFRIQ8E2lb",
+    "name": "Holzminden",
+    "bundesland_uid": "Oe1a2DZbDqa",
+    "bundesland_name": "Niedersachsen",
+    "lat": 51.8618,
+    "lon": 9.5442
+  },
+  {
+    "idx": 160,
+    "uid": "IWkLAr5bxYt",
+    "name": "Leer",
+    "bundesland_uid": "Oe1a2DZbDqa",
+    "bundesland_name": "Niedersachsen",
+    "lat": 53.2298,
+    "lon": 7.4797
+  },
+  {
+    "idx": 161,
+    "uid": "XvSCQHEwVw2",
+    "name": "Lüchow-Dannenberg",
+    "bundesland_uid": "Oe1a2DZbDqa",
+    "bundesland_name": "Niedersachsen",
+    "lat": 53.0281,
+    "lon": 11.0903
+  },
+  {
+    "idx": 162,
+    "uid": "EmlrmmVGFIF",
+    "name": "Lüneburg",
+    "bundesland_uid": "Oe1a2DZbDqa",
+    "bundesland_name": "Niedersachsen",
+    "lat": 53.2265,
+    "lon": 10.5992
+  },
+  {
+    "idx": 163,
+    "uid": "HabZFK0lPc0",
+    "name": "Nienburg",
+    "bundesland_uid": "Oe1a2DZbDqa",
+    "bundesland_name": "Niedersachsen",
+    "lat": 52.6233,
+    "lon": 9.113
+  },
+  {
+    "idx": 164,
+    "uid": "DCH7bPbV5iw",
+    "name": "Northeim",
+    "bundesland_uid": "Oe1a2DZbDqa",
+    "bundesland_name": "Niedersachsen",
+    "lat": 51.7444,
+    "lon": 9.8441
+  },
+  {
+    "idx": 165,
+    "uid": "mqlmPK3oBlY",
+    "name": "Oldenburg",
+    "bundesland_uid": "Oe1a2DZbDqa",
+    "bundesland_name": "Niedersachsen",
+    "lat": 52.9928,
+    "lon": 8.4355
+  },
+  {
+    "idx": 166,
+    "uid": "Iu0WErs5jK8",
+    "name": "Oldenburg Städte",
+    "bundesland_uid": "Oe1a2DZbDqa",
+    "bundesland_name": "Niedersachsen",
+    "lat": 53.1472,
+    "lon": 8.2323
+  },
+  {
+    "idx": 167,
+    "uid": "fwCXwzSPnEY",
+    "name": "Osnabrück",
+    "bundesland_uid": "Oe1a2DZbDqa",
+    "bundesland_name": "Niedersachsen",
+    "lat": 52.3302,
+    "lon": 8.0825
+  },
+  {
+    "idx": 168,
+    "uid": "eG4mtHevKpY",
+    "name": "Osnabrück Städte",
+    "bundesland_uid": "Oe1a2DZbDqa",
+    "bundesland_name": "Niedersachsen",
+    "lat": 52.2757,
+    "lon": 8.0634
+  },
+  {
+    "idx": 169,
+    "uid": "OJwCqzf3Oqq",
+    "name": "Osterholz",
+    "bundesland_uid": "Oe1a2DZbDqa",
+    "bundesland_name": "Niedersachsen",
+    "lat": 53.2566,
+    "lon": 8.7733
+  },
+  {
+    "idx": 170,
+    "uid": "R0ByOq49xU3",
+    "name": "Osterode",
+    "bundesland_uid": "Oe1a2DZbDqa",
+    "bundesland_name": "Niedersachsen",
+    "lat": 51.6771,
+    "lon": 10.399
+  },
+  {
+    "idx": 171,
+    "uid": "VtRL2vBS0M2",
+    "name": "Peine",
+    "bundesland_uid": "Oe1a2DZbDqa",
+    "bundesland_name": "Niedersachsen",
+    "lat": 52.3073,
+    "lon": 10.2554
+  },
+  {
+    "idx": 172,
+    "uid": "XhbYpbu36bR",
+    "name": "Rotenburg",
+    "bundesland_uid": "Oe1a2DZbDqa",
+    "bundesland_name": "Niedersachsen",
+    "lat": 53.2734,
+    "lon": 9.3071
+  },
+  {
+    "idx": 173,
+    "uid": "lS9ILAIO86o",
+    "name": "Salzgitter Städte",
+    "bundesland_uid": "Oe1a2DZbDqa",
+    "bundesland_name": "Niedersachsen",
+    "lat": 52.1213,
+    "lon": 10.3618
+  },
+  {
+    "idx": 174,
+    "uid": "yswpBeh5xTA",
+    "name": "Schaumburg",
+    "bundesland_uid": "Oe1a2DZbDqa",
+    "bundesland_name": "Niedersachsen",
+    "lat": 52.2744,
+    "lon": 9.1934
+  },
+  {
+    "idx": 175,
+    "uid": "CoBXT3J0PPG",
+    "name": "Soltau-Fallingbostel",
+    "bundesland_uid": "Oe1a2DZbDqa",
+    "bundesland_name": "Niedersachsen",
+    "lat": 52.9227,
+    "lon": 9.7468
+  },
+  {
+    "idx": 176,
+    "uid": "QChKwf61Q1i",
+    "name": "Stade",
+    "bundesland_uid": "Oe1a2DZbDqa",
+    "bundesland_name": "Niedersachsen",
+    "lat": 53.596,
+    "lon": 9.3438
+  },
+  {
+    "idx": 177,
+    "uid": "lgc9GZChelt",
+    "name": "Uelzen",
+    "bundesland_uid": "Oe1a2DZbDqa",
+    "bundesland_name": "Niedersachsen",
+    "lat": 53.0002,
+    "lon": 10.576
+  },
+  {
+    "idx": 178,
+    "uid": "bLp8yunu1RT",
+    "name": "Vechta",
+    "bundesland_uid": "Oe1a2DZbDqa",
+    "bundesland_name": "Niedersachsen",
+    "lat": 52.6738,
+    "lon": 8.2427
+  },
+  {
+    "idx": 179,
+    "uid": "VAZuMD6krZZ",
+    "name": "Verden",
+    "bundesland_uid": "Oe1a2DZbDqa",
+    "bundesland_name": "Niedersachsen",
+    "lat": 52.9689,
+    "lon": 9.1788
+  },
+  {
+    "idx": 180,
+    "uid": "abTP2kVleVx",
+    "name": "Wesermarsch",
+    "bundesland_uid": "Oe1a2DZbDqa",
+    "bundesland_name": "Niedersachsen",
+    "lat": 53.4218,
+    "lon": 8.3646
+  },
+  {
+    "idx": 181,
+    "uid": "mXvwHHRKJJU",
+    "name": "Wilhelmshaven Städte",
+    "bundesland_uid": "Oe1a2DZbDqa",
+    "bundesland_name": "Niedersachsen",
+    "lat": 53.5701,
+    "lon": 8.1223
+  },
+  {
+    "idx": 182,
+    "uid": "YJp27Q2nOoF",
+    "name": "Wittmund",
+    "bundesland_uid": "Oe1a2DZbDqa",
+    "bundesland_name": "Niedersachsen",
+    "lat": 53.5575,
+    "lon": 7.7231
+  },
+  {
+    "idx": 183,
+    "uid": "qt2iNvjIGn8",
+    "name": "Wolfenbüttel",
+    "bundesland_uid": "Oe1a2DZbDqa",
+    "bundesland_name": "Niedersachsen",
+    "lat": 52.1401,
+    "lon": 10.6474
+  },
+  {
+    "idx": 184,
+    "uid": "TUIXIUcoWWl",
+    "name": "Wolfsburg Städte",
+    "bundesland_uid": "Oe1a2DZbDqa",
+    "bundesland_name": "Niedersachsen",
+    "lat": 52.4067,
+    "lon": 10.7985
+  },
+  {
+    "idx": 185,
+    "uid": "gn9s9JDaTJA",
+    "name": "Altenburger Land",
+    "bundesland_uid": "PrgdgbVZr2d",
+    "bundesland_name": "Thüringen",
+    "lat": 50.9534,
+    "lon": 12.4141
+  },
+  {
+    "idx": 186,
+    "uid": "X9gMgQmx5AX",
+    "name": "Eichsfeld",
+    "bundesland_uid": "PrgdgbVZr2d",
+    "bundesland_name": "Thüringen",
+    "lat": 51.3846,
+    "lon": 10.2626
+  },
+  {
+    "idx": 187,
+    "uid": "RWqCXZJjepa",
+    "name": "Erfurt Städte",
+    "bundesland_uid": "PrgdgbVZr2d",
+    "bundesland_name": "Thüringen",
+    "lat": 50.9866,
+    "lon": 11.0176
+  },
+  {
+    "idx": 188,
+    "uid": "k0NQ9miAB1R",
+    "name": "Gera Städte",
+    "bundesland_uid": "PrgdgbVZr2d",
+    "bundesland_name": "Thüringen",
+    "lat": 50.8962,
+    "lon": 12.096
+  },
+  {
+    "idx": 189,
+    "uid": "EWNF2UlxfR0",
+    "name": "Gotha",
+    "bundesland_uid": "PrgdgbVZr2d",
+    "bundesland_name": "Thüringen",
+    "lat": 50.9078,
+    "lon": 10.6958
+  },
+  {
+    "idx": 190,
+    "uid": "g2VSoiVFpiB",
+    "name": "Greiz",
+    "bundesland_uid": "PrgdgbVZr2d",
+    "bundesland_name": "Thüringen",
+    "lat": 50.7729,
+    "lon": 12.0843
+  },
+  {
+    "idx": 191,
+    "uid": "Tmqm7GyaFdh",
+    "name": "Hildburghausen",
+    "bundesland_uid": "PrgdgbVZr2d",
+    "bundesland_name": "Thüringen",
+    "lat": 50.427,
+    "lon": 10.7292
+  },
+  {
+    "idx": 192,
+    "uid": "Ml0SP0F20on",
+    "name": "Ilm-Kreis",
+    "bundesland_uid": "PrgdgbVZr2d",
+    "bundesland_name": "Thüringen",
+    "lat": 50.726,
+    "lon": 10.9862
+  },
+  {
+    "idx": 193,
+    "uid": "sWn3AMBeqDm",
+    "name": "Jena Städte",
+    "bundesland_uid": "PrgdgbVZr2d",
+    "bundesland_name": "Thüringen",
+    "lat": 50.9281,
+    "lon": 11.577
+  },
+  {
+    "idx": 194,
+    "uid": "CVNvFN2tSpy",
+    "name": "Kyffhäuserkreis",
+    "bundesland_uid": "PrgdgbVZr2d",
+    "bundesland_name": "Thüringen",
+    "lat": 51.3175,
+    "lon": 11.0187
+  },
+  {
+    "idx": 195,
+    "uid": "Gr18lOlhe3a",
+    "name": "Nordhausen",
+    "bundesland_uid": "PrgdgbVZr2d",
+    "bundesland_name": "Thüringen",
+    "lat": 51.498,
+    "lon": 10.7083
+  },
+  {
+    "idx": 196,
+    "uid": "BnuRqmtSDCS",
+    "name": "Saale-Holzland",
+    "bundesland_uid": "PrgdgbVZr2d",
+    "bundesland_name": "Thüringen",
+    "lat": 50.9162,
+    "lon": 11.7184
+  },
+  {
+    "idx": 197,
+    "uid": "ADgrk4OgY61",
+    "name": "Saale-Orla",
+    "bundesland_uid": "PrgdgbVZr2d",
+    "bundesland_name": "Thüringen",
+    "lat": 50.5833,
+    "lon": 11.7108
+  },
+  {
+    "idx": 198,
+    "uid": "gwMUOBNWiYI",
+    "name": "Saalfeld-Rudolstadt",
+    "bundesland_uid": "PrgdgbVZr2d",
+    "bundesland_name": "Thüringen",
+    "lat": 50.623,
+    "lon": 11.3228
+  },
+  {
+    "idx": 199,
+    "uid": "A3wqvmG63kn",
+    "name": "Schmalkalden-Meiningen",
+    "bundesland_uid": "PrgdgbVZr2d",
+    "bundesland_name": "Thüringen",
+    "lat": 50.6183,
+    "lon": 10.4077
+  },
+  {
+    "idx": 200,
+    "uid": "x4TGk1M352l",
+    "name": "Sonneberg",
+    "bundesland_uid": "PrgdgbVZr2d",
+    "bundesland_name": "Thüringen",
+    "lat": 50.4142,
+    "lon": 11.1343
+  },
+  {
+    "idx": 201,
+    "uid": "enOz0QO2mph",
+    "name": "Suhl Städte",
+    "bundesland_uid": "PrgdgbVZr2d",
+    "bundesland_name": "Thüringen",
+    "lat": 50.6073,
+    "lon": 10.6967
+  },
+  {
+    "idx": 202,
+    "uid": "g68D1xyO9lQ",
+    "name": "Sömmerda",
+    "bundesland_uid": "PrgdgbVZr2d",
+    "bundesland_name": "Thüringen",
+    "lat": 51.167,
+    "lon": 11.1731
+  },
+  {
+    "idx": 203,
+    "uid": "WERXV3Eoyrh",
+    "name": "Unstrut-Hainich",
+    "bundesland_uid": "PrgdgbVZr2d",
+    "bundesland_name": "Thüringen",
+    "lat": 51.1756,
+    "lon": 10.5262
+  },
+  {
+    "idx": 204,
+    "uid": "WW2omaandAX",
+    "name": "Wartburgkreis",
+    "bundesland_uid": "PrgdgbVZr2d",
+    "bundesland_name": "Thüringen",
+    "lat": 50.9091,
+    "lon": 10.202
+  },
+  {
+    "idx": 205,
+    "uid": "xuVjvQ3rPHp",
+    "name": "Weimar Städte",
+    "bundesland_uid": "PrgdgbVZr2d",
+    "bundesland_name": "Thüringen",
+    "lat": 50.9779,
+    "lon": 11.3167
+  },
+  {
+    "idx": 206,
+    "uid": "hEqYbm7g2z4",
+    "name": "Weimarer Land",
+    "bundesland_uid": "PrgdgbVZr2d",
+    "bundesland_name": "Thüringen",
+    "lat": 50.9635,
+    "lon": 11.396
+  },
+  {
+    "idx": 207,
+    "uid": "Ss3ivpCtUYW",
+    "name": "Berlin",
+    "bundesland_uid": "S0gZ79eJSx8",
+    "bundesland_name": "Berlin",
+    "lat": 52.4998,
+    "lon": 13.4324
+  },
+  {
+    "idx": 208,
+    "uid": "gyJ0vvR5rPT",
+    "name": "Bremen Städte",
+    "bundesland_uid": "S6YiLzHwyRS",
+    "bundesland_name": "Bremen",
+    "lat": 53.1271,
+    "lon": 8.7574
+  },
+  {
+    "idx": 209,
+    "uid": "QJtfZAJKnep",
+    "name": "Annaberg",
+    "bundesland_uid": "T7xo5gzevDD",
+    "bundesland_name": "Sachsen",
+    "lat": 50.5692,
+    "lon": 12.9838
+  },
+  {
+    "idx": 210,
+    "uid": "RkaOaew9m93",
+    "name": "Aue-Schwarzenberg",
+    "bundesland_uid": "T7xo5gzevDD",
+    "bundesland_name": "Sachsen",
+    "lat": 50.5352,
+    "lon": 12.7327
+  },
+  {
+    "idx": 211,
+    "uid": "WKuKRqg9LYk",
+    "name": "Bautzen",
+    "bundesland_uid": "T7xo5gzevDD",
+    "bundesland_name": "Sachsen",
+    "lat": 51.1802,
+    "lon": 14.3866
+  },
+  {
+    "idx": 212,
+    "uid": "x4xASDzWXzF",
+    "name": "Chemnitz Städte",
+    "bundesland_uid": "T7xo5gzevDD",
+    "bundesland_name": "Sachsen",
+    "lat": 50.8373,
+    "lon": 12.9389
+  },
+  {
+    "idx": 213,
+    "uid": "JSLijgeTpJr",
+    "name": "Chemnitzer Land",
+    "bundesland_uid": "T7xo5gzevDD",
+    "bundesland_name": "Sachsen",
+    "lat": 50.8313,
+    "lon": 12.6626
+  },
+  {
+    "idx": 214,
+    "uid": "gFEDBR4CUFI",
+    "name": "Delitzsch",
+    "bundesland_uid": "T7xo5gzevDD",
+    "bundesland_name": "Sachsen",
+    "lat": 51.5132,
+    "lon": 12.5148
+  },
+  {
+    "idx": 215,
+    "uid": "afsVwRGnUhW",
+    "name": "Dresden Städte",
+    "bundesland_uid": "T7xo5gzevDD",
+    "bundesland_name": "Sachsen",
+    "lat": 51.1026,
+    "lon": 13.7967
+  },
+  {
+    "idx": 216,
+    "uid": "vVTDqcKfJpz",
+    "name": "Döbeln",
+    "bundesland_uid": "T7xo5gzevDD",
+    "bundesland_name": "Sachsen",
+    "lat": 51.1381,
+    "lon": 13.089
+  },
+  {
+    "idx": 217,
+    "uid": "qv6mbPQDNU1",
+    "name": "Freiberg",
+    "bundesland_uid": "T7xo5gzevDD",
+    "bundesland_name": "Sachsen",
+    "lat": 50.8363,
+    "lon": 13.3434
+  },
+  {
+    "idx": 218,
+    "uid": "OYILqLbxycq",
+    "name": "Görlitz Städte",
+    "bundesland_uid": "T7xo5gzevDD",
+    "bundesland_name": "Sachsen",
+    "lat": 51.1273,
+    "lon": 14.9606
+  },
+  {
+    "idx": 219,
+    "uid": "WW5TlchHJhm",
+    "name": "Kamenz",
+    "bundesland_uid": "T7xo5gzevDD",
+    "bundesland_name": "Sachsen",
+    "lat": 51.3405,
+    "lon": 14.1795
+  },
+  {
+    "idx": 220,
+    "uid": "H5vgV4wSCP6",
+    "name": "Leipzig Städte",
+    "bundesland_uid": "T7xo5gzevDD",
+    "bundesland_name": "Sachsen",
+    "lat": 51.331,
+    "lon": 12.373
+  },
+  {
+    "idx": 221,
+    "uid": "T2cvhw1QSc9",
+    "name": "Leipziger Land",
+    "bundesland_uid": "T7xo5gzevDD",
+    "bundesland_name": "Sachsen",
+    "lat": 51.1974,
+    "lon": 12.463
+  },
+  {
+    "idx": 222,
+    "uid": "KNoOAfku49I",
+    "name": "Löbau-Zittau",
+    "bundesland_uid": "T7xo5gzevDD",
+    "bundesland_name": "Sachsen",
+    "lat": 51.0089,
+    "lon": 14.7182
+  },
+  {
+    "idx": 223,
+    "uid": "EfgfX30LDm2",
+    "name": "Meißen",
+    "bundesland_uid": "T7xo5gzevDD",
+    "bundesland_name": "Sachsen",
+    "lat": 51.1424,
+    "lon": 13.4333
+  },
+  {
+    "idx": 224,
+    "uid": "mWBf90Dgv3k",
+    "name": "Mittlerer Erzgebirgskreis",
+    "bundesland_uid": "T7xo5gzevDD",
+    "bundesland_name": "Sachsen",
+    "lat": 50.6611,
+    "lon": 13.2202
+  },
+  {
+    "idx": 225,
+    "uid": "Lxy8IAFwCJA",
+    "name": "Mittweida",
+    "bundesland_uid": "T7xo5gzevDD",
+    "bundesland_name": "Sachsen",
+    "lat": 50.987,
+    "lon": 12.9538
+  },
+  {
+    "idx": 226,
+    "uid": "Eu7b8nATi2e",
+    "name": "Muldentalkreis",
+    "bundesland_uid": "T7xo5gzevDD",
+    "bundesland_name": "Sachsen",
+    "lat": 51.276,
+    "lon": 12.765
+  },
+  {
+    "idx": 227,
+    "uid": "amYePWK0tLt",
+    "name": "Niederschlesischer Oberlausitzkreis",
+    "bundesland_uid": "T7xo5gzevDD",
+    "bundesland_name": "Sachsen",
+    "lat": 51.3528,
+    "lon": 14.7489
+  },
+  {
+    "idx": 228,
+    "uid": "sEDWwZWwzqe",
+    "name": "Plauen Städte",
+    "bundesland_uid": "T7xo5gzevDD",
+    "bundesland_name": "Sachsen",
+    "lat": 50.4939,
+    "lon": 12.151
+  },
+  {
+    "idx": 229,
+    "uid": "qhstYLOMqAm",
+    "name": "Riesa-Großenhain",
+    "bundesland_uid": "T7xo5gzevDD",
+    "bundesland_name": "Sachsen",
+    "lat": 51.3069,
+    "lon": 13.5023
+  },
+  {
+    "idx": 230,
+    "uid": "rtT60hPtFIS",
+    "name": "Stollberg",
+    "bundesland_uid": "T7xo5gzevDD",
+    "bundesland_name": "Sachsen",
+    "lat": 50.7147,
+    "lon": 12.8205
+  },
+  {
+    "idx": 231,
+    "uid": "YCER8XoPA0k",
+    "name": "Sächsische Schweiz",
+    "bundesland_uid": "T7xo5gzevDD",
+    "bundesland_name": "Sachsen",
+    "lat": 50.9448,
+    "lon": 14.0715
+  },
+  {
+    "idx": 232,
+    "uid": "Y5428U5AkhF",
+    "name": "Torgau-Oschatz",
+    "bundesland_uid": "T7xo5gzevDD",
+    "bundesland_name": "Sachsen",
+    "lat": 51.454,
+    "lon": 12.9978
+  },
+  {
+    "idx": 233,
+    "uid": "bK8maBsZcP6",
+    "name": "Vogtlandkreis",
+    "bundesland_uid": "T7xo5gzevDD",
+    "bundesland_name": "Sachsen",
+    "lat": 50.4641,
+    "lon": 12.2071
+  },
+  {
+    "idx": 234,
+    "uid": "tnllX7E7Dx5",
+    "name": "Weißeritzkreis",
+    "bundesland_uid": "T7xo5gzevDD",
+    "bundesland_name": "Sachsen",
+    "lat": 50.8862,
+    "lon": 13.6581
+  },
+  {
+    "idx": 235,
+    "uid": "QuzuHDC7lsN",
+    "name": "Zwickau Städte",
+    "bundesland_uid": "T7xo5gzevDD",
+    "bundesland_name": "Sachsen",
+    "lat": 50.7365,
+    "lon": 12.4892
+  },
+  {
+    "idx": 236,
+    "uid": "UyHAvpyrk6c",
+    "name": "Zwickauer Land",
+    "bundesland_uid": "T7xo5gzevDD",
+    "bundesland_name": "Sachsen",
+    "lat": 50.7134,
+    "lon": 12.481
+  },
+  {
+    "idx": 237,
+    "uid": "rdwvPXi0qBr",
+    "name": "Hamburg Städte",
+    "bundesland_uid": "fAJqvNnlzCz",
+    "bundesland_name": "Hamburg",
+    "lat": 53.5658,
+    "lon": 10.044
+  },
+  {
+    "idx": 238,
+    "uid": "ZVWVlQWrgqj",
+    "name": "Barnim",
+    "bundesland_uid": "hy1y1zKBxXo",
+    "bundesland_name": "Brandenburg",
+    "lat": 52.8198,
+    "lon": 13.6952
+  },
+  {
+    "idx": 239,
+    "uid": "Rs5vrYm4Ejw",
+    "name": "Brandenburg an der Havel Städte",
+    "bundesland_uid": "hy1y1zKBxXo",
+    "bundesland_name": "Brandenburg",
+    "lat": 52.4087,
+    "lon": 12.5193
+  },
+  {
+    "idx": 240,
+    "uid": "qrayMugXLyh",
+    "name": "Cottbus Städte",
+    "bundesland_uid": "hy1y1zKBxXo",
+    "bundesland_name": "Brandenburg",
+    "lat": 51.775,
+    "lon": 14.3949
+  },
+  {
+    "idx": 241,
+    "uid": "O2cZbDOoY7w",
+    "name": "Dahme-Spreewald",
+    "bundesland_uid": "hy1y1zKBxXo",
+    "bundesland_name": "Brandenburg",
+    "lat": 52.0557,
+    "lon": 13.8225
+  },
+  {
+    "idx": 242,
+    "uid": "KOxCfrtGURl",
+    "name": "Elbe-Elster",
+    "bundesland_uid": "hy1y1zKBxXo",
+    "bundesland_name": "Brandenburg",
+    "lat": 51.6006,
+    "lon": 13.4687
+  },
+  {
+    "idx": 243,
+    "uid": "x6hG4CmmNKQ",
+    "name": "Frankfurt am Oder Städte",
+    "bundesland_uid": "hy1y1zKBxXo",
+    "bundesland_name": "Brandenburg",
+    "lat": 52.3211,
+    "lon": 14.4948
+  },
+  {
+    "idx": 244,
+    "uid": "uInuDtBHLt4",
+    "name": "Havelland",
+    "bundesland_uid": "hy1y1zKBxXo",
+    "bundesland_name": "Brandenburg",
+    "lat": 52.599,
+    "lon": 12.5855
+  },
+  {
+    "idx": 245,
+    "uid": "FZgeXnr74IL",
+    "name": "Märkisch-Oderland",
+    "bundesland_uid": "hy1y1zKBxXo",
+    "bundesland_name": "Brandenburg",
+    "lat": 52.6043,
+    "lon": 14.1311
+  },
+  {
+    "idx": 246,
+    "uid": "lDcfwnUqObX",
+    "name": "Oberhavel",
+    "bundesland_uid": "hy1y1zKBxXo",
+    "bundesland_name": "Brandenburg",
+    "lat": 52.9087,
+    "lon": 13.2186
+  },
+  {
+    "idx": 247,
+    "uid": "cSWPGzvXW7c",
+    "name": "Oberspreewald-Lausitz",
+    "bundesland_uid": "hy1y1zKBxXo",
+    "bundesland_name": "Brandenburg",
+    "lat": 51.604,
+    "lon": 13.9447
+  },
+  {
+    "idx": 248,
+    "uid": "MKPL1aiXTwe",
+    "name": "Oder-Spree",
+    "bundesland_uid": "hy1y1zKBxXo",
+    "bundesland_name": "Brandenburg",
+    "lat": 52.2482,
+    "lon": 14.1967
+  },
+  {
+    "idx": 249,
+    "uid": "GCnkGGkud38",
+    "name": "Ostprignitz-Ruppin",
+    "bundesland_uid": "hy1y1zKBxXo",
+    "bundesland_name": "Brandenburg",
+    "lat": 52.9991,
+    "lon": 12.6002
+  },
+  {
+    "idx": 250,
+    "uid": "ahY0C5pkD3D",
+    "name": "Potsdam Städte",
+    "bundesland_uid": "hy1y1zKBxXo",
+    "bundesland_name": "Brandenburg",
+    "lat": 52.3921,
+    "lon": 13.0582
+  },
+  {
+    "idx": 251,
+    "uid": "GjlXE5ewnnu",
+    "name": "Potsdam-Mittelmark",
+    "bundesland_uid": "hy1y1zKBxXo",
+    "bundesland_name": "Brandenburg",
+    "lat": 52.3394,
+    "lon": 12.7187
+  },
+  {
+    "idx": 252,
+    "uid": "j4PKnHS05eE",
+    "name": "Prignitz",
+    "bundesland_uid": "hy1y1zKBxXo",
+    "bundesland_name": "Brandenburg",
+    "lat": 53.1137,
+    "lon": 11.97
+  },
+  {
+    "idx": 253,
+    "uid": "v6ommOlc7aY",
+    "name": "Spree-Neiße",
+    "bundesland_uid": "hy1y1zKBxXo",
+    "bundesland_name": "Brandenburg",
+    "lat": 51.7529,
+    "lon": 14.4494
+  },
+  {
+    "idx": 254,
+    "uid": "bC9aArooAWW",
+    "name": "Teltow-Fläming",
+    "bundesland_uid": "hy1y1zKBxXo",
+    "bundesland_name": "Brandenburg",
+    "lat": 52.0609,
+    "lon": 13.2886
+  },
+  {
+    "idx": 255,
+    "uid": "FbCfuLkQu7i",
+    "name": "Uckermark",
+    "bundesland_uid": "hy1y1zKBxXo",
+    "bundesland_name": "Brandenburg",
+    "lat": 53.2097,
+    "lon": 13.8804
+  },
+  {
+    "idx": 256,
+    "uid": "VJ1cibaH45X",
+    "name": "Altmarkkreis Salzwedel",
+    "bundesland_uid": "oazLtnGqAPR",
+    "bundesland_name": "Sachsen-Anhalt",
+    "lat": 52.705,
+    "lon": 11.2704
+  },
+  {
+    "idx": 257,
+    "uid": "Y9K5Panxemm",
+    "name": "Anhalt-Zerbst",
+    "bundesland_uid": "oazLtnGqAPR",
+    "bundesland_name": "Sachsen-Anhalt",
+    "lat": 51.9631,
+    "lon": 12.2388
+  },
+  {
+    "idx": 258,
+    "uid": "HMSP4gYSANH",
+    "name": "Aschersleben-Staßfurt",
+    "bundesland_uid": "oazLtnGqAPR",
+    "bundesland_name": "Sachsen-Anhalt",
+    "lat": 51.8033,
+    "lon": 11.4402
+  },
+  {
+    "idx": 259,
+    "uid": "qGHFleBjDhH",
+    "name": "Bernburg",
+    "bundesland_uid": "oazLtnGqAPR",
+    "bundesland_name": "Sachsen-Anhalt",
+    "lat": 51.7486,
+    "lon": 11.7342
+  },
+  {
+    "idx": 260,
+    "uid": "QaP0WnsfuR2",
+    "name": "Bitterfeld",
+    "bundesland_uid": "oazLtnGqAPR",
+    "bundesland_name": "Sachsen-Anhalt",
+    "lat": 51.6508,
+    "lon": 12.3165
+  },
+  {
+    "idx": 261,
+    "uid": "U4nykpoFzm7",
+    "name": "Burgenlandkreis",
+    "bundesland_uid": "oazLtnGqAPR",
+    "bundesland_name": "Sachsen-Anhalt",
+    "lat": 51.1288,
+    "lon": 11.8591
+  },
+  {
+    "idx": 262,
+    "uid": "PkOneUjMFGf",
+    "name": "Bördekreis",
+    "bundesland_uid": "oazLtnGqAPR",
+    "bundesland_name": "Sachsen-Anhalt",
+    "lat": 52.053,
+    "lon": 11.3012
+  },
+  {
+    "idx": 263,
+    "uid": "bp0Z0zL5WFp",
+    "name": "Dessau Städte",
+    "bundesland_uid": "oazLtnGqAPR",
+    "bundesland_name": "Sachsen-Anhalt",
+    "lat": 51.8041,
+    "lon": 12.2553
+  },
+  {
+    "idx": 264,
+    "uid": "v95zVSPxF9a",
+    "name": "Halberstadt",
+    "bundesland_uid": "oazLtnGqAPR",
+    "bundesland_name": "Sachsen-Anhalt",
+    "lat": 51.9377,
+    "lon": 10.9175
+  },
+  {
+    "idx": 265,
+    "uid": "VQMT5o1Aq63",
+    "name": "Halle Städte",
+    "bundesland_uid": "oazLtnGqAPR",
+    "bundesland_name": "Sachsen-Anhalt",
+    "lat": 51.4756,
+    "lon": 11.9765
+  },
+  {
+    "idx": 266,
+    "uid": "xsBgk99mfZs",
+    "name": "Jerichower Land",
+    "bundesland_uid": "oazLtnGqAPR",
+    "bundesland_name": "Sachsen-Anhalt",
+    "lat": 52.3168,
+    "lon": 12.055
+  },
+  {
+    "idx": 267,
+    "uid": "rMTwqeIbqdt",
+    "name": "Köthen",
+    "bundesland_uid": "oazLtnGqAPR",
+    "bundesland_name": "Sachsen-Anhalt",
+    "lat": 51.7666,
+    "lon": 12.0211
+  },
+  {
+    "idx": 268,
+    "uid": "Lk1LALl3rtJ",
+    "name": "Magdeburg Städte",
+    "bundesland_uid": "oazLtnGqAPR",
+    "bundesland_name": "Sachsen-Anhalt",
+    "lat": 52.105,
+    "lon": 11.6534
+  },
+  {
+    "idx": 269,
+    "uid": "RU7b4jZDozW",
+    "name": "Mansfelder Land",
+    "bundesland_uid": "oazLtnGqAPR",
+    "bundesland_name": "Sachsen-Anhalt",
+    "lat": 51.5709,
+    "lon": 11.4777
+  },
+  {
+    "idx": 270,
+    "uid": "fUKtbUkPRmZ",
+    "name": "Merseburg-Querfurt",
+    "bundesland_uid": "oazLtnGqAPR",
+    "bundesland_name": "Sachsen-Anhalt",
+    "lat": 51.343,
+    "lon": 11.8369
+  },
+  {
+    "idx": 271,
+    "uid": "Q1fBg4Zk8pw",
+    "name": "Ohrekreis",
+    "bundesland_uid": "oazLtnGqAPR",
+    "bundesland_name": "Sachsen-Anhalt",
+    "lat": 52.3242,
+    "lon": 11.3716
+  },
+  {
+    "idx": 272,
+    "uid": "osLrzwUFhQz",
+    "name": "Quedlinburg",
+    "bundesland_uid": "oazLtnGqAPR",
+    "bundesland_name": "Sachsen-Anhalt",
+    "lat": 51.7243,
+    "lon": 11.1472
+  },
+  {
+    "idx": 273,
+    "uid": "L0Ab253z1cq",
+    "name": "Saalkreis",
+    "bundesland_uid": "oazLtnGqAPR",
+    "bundesland_name": "Sachsen-Anhalt",
+    "lat": 51.5025,
+    "lon": 11.947
+  },
+  {
+    "idx": 274,
+    "uid": "SN9NAczcfje",
+    "name": "Sangerhausen",
+    "bundesland_uid": "oazLtnGqAPR",
+    "bundesland_name": "Sachsen-Anhalt",
+    "lat": 51.4983,
+    "lon": 11.1886
+  },
+  {
+    "idx": 275,
+    "uid": "blCkmcUvQjL",
+    "name": "Schönebeck",
+    "bundesland_uid": "oazLtnGqAPR",
+    "bundesland_name": "Sachsen-Anhalt",
+    "lat": 51.9473,
+    "lon": 11.7914
+  },
+  {
+    "idx": 276,
+    "uid": "GzMz1D29nDo",
+    "name": "Stendal",
+    "bundesland_uid": "oazLtnGqAPR",
+    "bundesland_name": "Sachsen-Anhalt",
+    "lat": 52.6986,
+    "lon": 11.8255
+  },
+  {
+    "idx": 277,
+    "uid": "w86W5qD8Gvc",
+    "name": "Weißenfels",
+    "bundesland_uid": "oazLtnGqAPR",
+    "bundesland_name": "Sachsen-Anhalt",
+    "lat": 51.1889,
+    "lon": 12.0388
+  },
+  {
+    "idx": 278,
+    "uid": "xnTaznLeKPA",
+    "name": "Wernigerode",
+    "bundesland_uid": "oazLtnGqAPR",
+    "bundesland_name": "Sachsen-Anhalt",
+    "lat": 51.7999,
+    "lon": 10.839
+  },
+  {
+    "idx": 279,
+    "uid": "NQmptrs8GK0",
+    "name": "Wittenberg",
+    "bundesland_uid": "oazLtnGqAPR",
+    "bundesland_name": "Sachsen-Anhalt",
+    "lat": 51.7706,
+    "lon": 12.7605
+  },
+  {
+    "idx": 280,
+    "uid": "xQ4anMMA2w6",
+    "name": "Dithmarschen",
+    "bundesland_uid": "sTHbKLIUiJQ",
+    "bundesland_name": "Schleswig-Holstein",
+    "lat": 54.1375,
+    "lon": 9.0382
+  },
+  {
+    "idx": 281,
+    "uid": "KSBq8GcYgZR",
+    "name": "Flensburg Städte",
+    "bundesland_uid": "sTHbKLIUiJQ",
+    "bundesland_name": "Schleswig-Holstein",
+    "lat": 54.7981,
+    "lon": 9.4409
+  },
+  {
+    "idx": 282,
+    "uid": "h15MmT9lCAu",
+    "name": "Kiel Städte",
+    "bundesland_uid": "sTHbKLIUiJQ",
+    "bundesland_name": "Schleswig-Holstein",
+    "lat": 54.3516,
+    "lon": 10.1511
+  },
+  {
+    "idx": 283,
+    "uid": "BONqhmMJjm1",
+    "name": "Lauenburg",
+    "bundesland_uid": "sTHbKLIUiJQ",
+    "bundesland_name": "Schleswig-Holstein",
+    "lat": 53.6358,
+    "lon": 10.5871
+  },
+  {
+    "idx": 284,
+    "uid": "PRpIaxqIySn",
+    "name": "Lübeck Städte",
+    "bundesland_uid": "sTHbKLIUiJQ",
+    "bundesland_name": "Schleswig-Holstein",
+    "lat": 53.8848,
+    "lon": 10.7574
+  },
+  {
+    "idx": 285,
+    "uid": "L1BmTMHrx80",
+    "name": "Neumünster Städte",
+    "bundesland_uid": "sTHbKLIUiJQ",
+    "bundesland_name": "Schleswig-Holstein",
+    "lat": 54.0864,
+    "lon": 9.9913
+  },
+  {
+    "idx": 286,
+    "uid": "l2tFz1UlU7R",
+    "name": "Nordfriesland",
+    "bundesland_uid": "sTHbKLIUiJQ",
+    "bundesland_name": "Schleswig-Holstein",
+    "lat": 54.6211,
+    "lon": 8.7028
+  },
+  {
+    "idx": 287,
+    "uid": "xkbGdUXQBSd",
+    "name": "Ostholstein",
+    "bundesland_uid": "sTHbKLIUiJQ",
+    "bundesland_name": "Schleswig-Holstein",
+    "lat": 54.1855,
+    "lon": 10.8255
+  },
+  {
+    "idx": 288,
+    "uid": "OYVqWEU6qkq",
+    "name": "Pinneberg",
+    "bundesland_uid": "sTHbKLIUiJQ",
+    "bundesland_name": "Schleswig-Holstein",
+    "lat": 53.7272,
+    "lon": 9.7857
+  },
+  {
+    "idx": 289,
+    "uid": "tmIxjyZWDy0",
+    "name": "Plön",
+    "bundesland_uid": "sTHbKLIUiJQ",
+    "bundesland_name": "Schleswig-Holstein",
+    "lat": 54.2601,
+    "lon": 10.3504
+  },
+  {
+    "idx": 290,
+    "uid": "XSvKhvyrPny",
+    "name": "Rendsburg-Eckernförde",
+    "bundesland_uid": "sTHbKLIUiJQ",
+    "bundesland_name": "Schleswig-Holstein",
+    "lat": 54.3779,
+    "lon": 9.8261
+  },
+  {
+    "idx": 291,
+    "uid": "km8aH8mSFSF",
+    "name": "Schleswig-Flensburg",
+    "bundesland_uid": "sTHbKLIUiJQ",
+    "bundesland_name": "Schleswig-Holstein",
+    "lat": 54.6207,
+    "lon": 9.6157
+  },
+  {
+    "idx": 292,
+    "uid": "ZTmnf1FUcX7",
+    "name": "Segeberg",
+    "bundesland_uid": "sTHbKLIUiJQ",
+    "bundesland_name": "Schleswig-Holstein",
+    "lat": 53.9084,
+    "lon": 10.1653
+  },
+  {
+    "idx": 293,
+    "uid": "h3d4u7bzeAR",
+    "name": "Steinburg",
+    "bundesland_uid": "sTHbKLIUiJQ",
+    "bundesland_name": "Schleswig-Holstein",
+    "lat": 53.9681,
+    "lon": 9.551
+  },
+  {
+    "idx": 294,
+    "uid": "sroAzCeQh9W",
+    "name": "Stormarn",
+    "bundesland_uid": "sTHbKLIUiJQ",
+    "bundesland_name": "Schleswig-Holstein",
+    "lat": 53.7254,
+    "lon": 10.3393
+  },
+  {
+    "idx": 295,
+    "uid": "mIlEQDlGkzp",
+    "name": "Merzig-Wadern",
+    "bundesland_uid": "twL5PpAyM0g",
+    "bundesland_name": "Saarland",
+    "lat": 49.5034,
+    "lon": 6.6663
+  },
+  {
+    "idx": 296,
+    "uid": "QVdnuiIVjfy",
+    "name": "Neunkirchen",
+    "bundesland_uid": "twL5PpAyM0g",
+    "bundesland_name": "Saarland",
+    "lat": 49.3827,
+    "lon": 7.1193
+  },
+  {
+    "idx": 297,
+    "uid": "ZZj3Hl2wn4D",
+    "name": "Saarbrücken Städte",
+    "bundesland_uid": "twL5PpAyM0g",
+    "bundesland_name": "Saarland",
+    "lat": 49.2611,
+    "lon": 6.9756
+  },
+  {
+    "idx": 298,
+    "uid": "UiWZlfl3qQn",
+    "name": "Saarlouis",
+    "bundesland_uid": "twL5PpAyM0g",
+    "bundesland_name": "Saarland",
+    "lat": 49.3719,
+    "lon": 6.7822
+  },
+  {
+    "idx": 299,
+    "uid": "BUf3c01KZ2L",
+    "name": "Saarpfalz",
+    "bundesland_uid": "twL5PpAyM0g",
+    "bundesland_name": "Saarland",
+    "lat": 49.2724,
+    "lon": 7.2546
+  },
+  {
+    "idx": 300,
+    "uid": "ITJRdRiMVfU",
+    "name": "Sankt Wendel",
+    "bundesland_uid": "twL5PpAyM0g",
+    "bundesland_name": "Saarland",
+    "lat": 49.5353,
+    "lon": 7.0971
+  },
+  {
+    "idx": 301,
+    "uid": "kYwv3hszgNu",
+    "name": "Bad Doberan",
+    "bundesland_uid": "tzcHKEmmNli",
+    "bundesland_name": "Mecklenburg-Vorpommern",
+    "lat": 54.0511,
+    "lon": 12.0005
+  },
+  {
+    "idx": 302,
+    "uid": "OuuWmIdh3nK",
+    "name": "Demmin",
+    "bundesland_uid": "tzcHKEmmNli",
+    "bundesland_name": "Mecklenburg-Vorpommern",
+    "lat": 53.7958,
+    "lon": 13.0467
+  },
+  {
+    "idx": 303,
+    "uid": "gBsfqdNOr4c",
+    "name": "Greifswald Städte",
+    "bundesland_uid": "tzcHKEmmNli",
+    "bundesland_name": "Mecklenburg-Vorpommern",
+    "lat": 54.0873,
+    "lon": 13.4302
+  },
+  {
+    "idx": 304,
+    "uid": "Y8Y3vDadNg4",
+    "name": "Güstrow",
+    "bundesland_uid": "tzcHKEmmNli",
+    "bundesland_name": "Mecklenburg-Vorpommern",
+    "lat": 53.8411,
+    "lon": 12.2947
+  },
+  {
+    "idx": 305,
+    "uid": "e8abhUQ5ORq",
+    "name": "Ludwigslust",
+    "bundesland_uid": "tzcHKEmmNli",
+    "bundesland_name": "Mecklenburg-Vorpommern",
+    "lat": 53.3955,
+    "lon": 11.2481
+  },
+  {
+    "idx": 306,
+    "uid": "OOZzB4uNJ4H",
+    "name": "Mecklenburg-Strelitz",
+    "bundesland_uid": "tzcHKEmmNli",
+    "bundesland_name": "Mecklenburg-Vorpommern",
+    "lat": 53.4396,
+    "lon": 13.2695
+  },
+  {
+    "idx": 307,
+    "uid": "Scen4dIoe4b",
+    "name": "Müritz",
+    "bundesland_uid": "tzcHKEmmNli",
+    "bundesland_name": "Mecklenburg-Vorpommern",
+    "lat": 53.4662,
+    "lon": 12.6738
+  },
+  {
+    "idx": 308,
+    "uid": "hFgaFwqbe4X",
+    "name": "Neubrandenburg Städte",
+    "bundesland_uid": "tzcHKEmmNli",
+    "bundesland_name": "Mecklenburg-Vorpommern",
+    "lat": 53.5233,
+    "lon": 13.2266
+  },
+  {
+    "idx": 309,
+    "uid": "AdxGA3hbYGt",
+    "name": "Nordvorpommern",
+    "bundesland_uid": "tzcHKEmmNli",
+    "bundesland_name": "Mecklenburg-Vorpommern",
+    "lat": 54.3249,
+    "lon": 12.7122
+  },
+  {
+    "idx": 310,
+    "uid": "lLrQFH2rkUZ",
+    "name": "Nordwestmecklenburg",
+    "bundesland_uid": "tzcHKEmmNli",
+    "bundesland_name": "Mecklenburg-Vorpommern",
+    "lat": 53.8854,
+    "lon": 11.3513
+  },
+  {
+    "idx": 311,
+    "uid": "rbFFJltWkKa",
+    "name": "Ostvorpommern",
+    "bundesland_uid": "tzcHKEmmNli",
+    "bundesland_name": "Mecklenburg-Vorpommern",
+    "lat": 53.9964,
+    "lon": 13.7706
+  },
+  {
+    "idx": 312,
+    "uid": "CkhQRCwI6vw",
+    "name": "Parchim",
+    "bundesland_uid": "tzcHKEmmNli",
+    "bundesland_name": "Mecklenburg-Vorpommern",
+    "lat": 53.5213,
+    "lon": 11.8924
+  },
+  {
+    "idx": 313,
+    "uid": "VjyZk6F6k67",
+    "name": "Rostock Städte",
+    "bundesland_uid": "tzcHKEmmNli",
+    "bundesland_name": "Mecklenburg-Vorpommern",
+    "lat": 54.1597,
+    "lon": 12.1317
+  },
+  {
+    "idx": 314,
+    "uid": "wITGVi2c0Mx",
+    "name": "Rügen",
+    "bundesland_uid": "tzcHKEmmNli",
+    "bundesland_name": "Mecklenburg-Vorpommern",
+    "lat": 54.4425,
+    "lon": 13.3887
+  },
+  {
+    "idx": 315,
+    "uid": "MUhKX1On9La",
+    "name": "Schwerin Städte",
+    "bundesland_uid": "tzcHKEmmNli",
+    "bundesland_name": "Mecklenburg-Vorpommern",
+    "lat": 53.6242,
+    "lon": 11.4029
+  },
+  {
+    "idx": 316,
+    "uid": "nVjpcodnX6a",
+    "name": "Stralsund Städte",
+    "bundesland_uid": "tzcHKEmmNli",
+    "bundesland_name": "Mecklenburg-Vorpommern",
+    "lat": 54.2936,
+    "lon": 13.0982
+  },
+  {
+    "idx": 317,
+    "uid": "XC2w5IY5G5d",
+    "name": "Uecker-Randow",
+    "bundesland_uid": "tzcHKEmmNli",
+    "bundesland_name": "Mecklenburg-Vorpommern",
+    "lat": 53.5919,
+    "lon": 14.0566
+  },
+  {
+    "idx": 318,
+    "uid": "kLE1ZHCH0DQ",
+    "name": "Wismar Städte",
+    "bundesland_uid": "tzcHKEmmNli",
+    "bundesland_name": "Mecklenburg-Vorpommern",
+    "lat": 53.9057,
+    "lon": 11.4594
+  },
+  {
+    "idx": 319,
+    "uid": "Du4OU5Gfypy",
+    "name": "Bergstraße",
+    "bundesland_uid": "xMmHrbkMQxr",
+    "bundesland_name": "Hessen",
+    "lat": 49.633,
+    "lon": 8.6932
+  },
+  {
+    "idx": 320,
+    "uid": "GosNs5SOgmb",
+    "name": "Darmstadt Städte",
+    "bundesland_uid": "xMmHrbkMQxr",
+    "bundesland_name": "Hessen",
+    "lat": 49.8797,
+    "lon": 8.6671
+  },
+  {
+    "idx": 321,
+    "uid": "lE1vLajuPkh",
+    "name": "Darmstadt-Dieburg",
+    "bundesland_uid": "xMmHrbkMQxr",
+    "bundesland_name": "Hessen",
+    "lat": 49.8544,
+    "lon": 8.7574
+  },
+  {
+    "idx": 322,
+    "uid": "ykqPAU5tPvj",
+    "name": "Frankfurt am Main Städte",
+    "bundesland_uid": "xMmHrbkMQxr",
+    "bundesland_name": "Hessen",
+    "lat": 50.1185,
+    "lon": 8.652
+  },
+  {
+    "idx": 323,
+    "uid": "dY975pccAAh",
+    "name": "Fulda",
+    "bundesland_uid": "xMmHrbkMQxr",
+    "bundesland_name": "Hessen",
+    "lat": 50.5942,
+    "lon": 9.7549
+  },
+  {
+    "idx": 324,
+    "uid": "nK3cjw4lKPB",
+    "name": "Gießen",
+    "bundesland_uid": "xMmHrbkMQxr",
+    "bundesland_name": "Hessen",
+    "lat": 50.5613,
+    "lon": 8.7865
+  },
+  {
+    "idx": 325,
+    "uid": "vSW1hnDi3Bo",
+    "name": "Groß-Gerau",
+    "bundesland_uid": "xMmHrbkMQxr",
+    "bundesland_name": "Hessen",
+    "lat": 49.9079,
+    "lon": 8.5055
+  },
+  {
+    "idx": 326,
+    "uid": "kthhV2MCAUb",
+    "name": "Hersfeld-Rotenburg",
+    "bundesland_uid": "xMmHrbkMQxr",
+    "bundesland_name": "Hessen",
+    "lat": 50.8918,
+    "lon": 9.7711
+  },
+  {
+    "idx": 327,
+    "uid": "RcPxiXAgrfP",
+    "name": "Hochtaunuskreis",
+    "bundesland_uid": "xMmHrbkMQxr",
+    "bundesland_name": "Hessen",
+    "lat": 50.2718,
+    "lon": 8.5163
+  },
+  {
+    "idx": 328,
+    "uid": "wlKxymxAeKd",
+    "name": "Kassel",
+    "bundesland_uid": "xMmHrbkMQxr",
+    "bundesland_name": "Hessen",
+    "lat": 51.3558,
+    "lon": 9.4502
+  },
+  {
+    "idx": 329,
+    "uid": "fhj3WHRJmoR",
+    "name": "Kassel Städte",
+    "bundesland_uid": "xMmHrbkMQxr",
+    "bundesland_name": "Hessen",
+    "lat": 51.307,
+    "lon": 9.4692
+  },
+  {
+    "idx": 330,
+    "uid": "s4PZ6zaJTGq",
+    "name": "Lahn-Dill-Kreis",
+    "bundesland_uid": "xMmHrbkMQxr",
+    "bundesland_name": "Hessen",
+    "lat": 50.6305,
+    "lon": 8.4116
+  },
+  {
+    "idx": 331,
+    "uid": "LBqP5SACEle",
+    "name": "Limburg-Weilburg",
+    "bundesland_uid": "xMmHrbkMQxr",
+    "bundesland_name": "Hessen",
+    "lat": 50.4329,
+    "lon": 8.2227
+  },
+  {
+    "idx": 332,
+    "uid": "BktQwtQsHBr",
+    "name": "Main-Kinzig-Kreis",
+    "bundesland_uid": "xMmHrbkMQxr",
+    "bundesland_name": "Hessen",
+    "lat": 50.2448,
+    "lon": 9.2632
+  },
+  {
+    "idx": 333,
+    "uid": "kCBiVc7r1jh",
+    "name": "Main-Taunus-Kreis Städte",
+    "bundesland_uid": "xMmHrbkMQxr",
+    "bundesland_name": "Hessen",
+    "lat": 50.1128,
+    "lon": 8.4463
+  },
+  {
+    "idx": 334,
+    "uid": "G2L3vzyHquJ",
+    "name": "Marburg-Biedenkopf",
+    "bundesland_uid": "xMmHrbkMQxr",
+    "bundesland_name": "Hessen",
+    "lat": 50.8292,
+    "lon": 8.7632
+  },
+  {
+    "idx": 335,
+    "uid": "npCTBfIsY5m",
+    "name": "Odenwaldkreis",
+    "bundesland_uid": "xMmHrbkMQxr",
+    "bundesland_name": "Hessen",
+    "lat": 49.6778,
+    "lon": 8.9973
+  },
+  {
+    "idx": 336,
+    "uid": "DYQNjwguJ9n",
+    "name": "Offenbach",
+    "bundesland_uid": "xMmHrbkMQxr",
+    "bundesland_name": "Hessen",
+    "lat": 50.033,
+    "lon": 8.8484
+  },
+  {
+    "idx": 337,
+    "uid": "VyHPmo9vcOE",
+    "name": "Offenbach am Main Städte",
+    "bundesland_uid": "xMmHrbkMQxr",
+    "bundesland_name": "Hessen",
+    "lat": 50.0917,
+    "lon": 8.7955
+  },
+  {
+    "idx": 338,
+    "uid": "knXH5NYSsu4",
+    "name": "Rheingau-Taunus-Kreis",
+    "bundesland_uid": "xMmHrbkMQxr",
+    "bundesland_name": "Hessen",
+    "lat": 50.1662,
+    "lon": 8.1193
+  },
+  {
+    "idx": 339,
+    "uid": "UrVqIvO0z1B",
+    "name": "Schwalm-Eder-Kreis",
+    "bundesland_uid": "xMmHrbkMQxr",
+    "bundesland_name": "Hessen",
+    "lat": 51.0211,
+    "lon": 9.3568
+  },
+  {
+    "idx": 340,
+    "uid": "j0xtunOeJdL",
+    "name": "Vogelsbergkreis",
+    "bundesland_uid": "xMmHrbkMQxr",
+    "bundesland_name": "Hessen",
+    "lat": 50.6263,
+    "lon": 9.2969
+  },
+  {
+    "idx": 341,
+    "uid": "PbzsOh2OBg2",
+    "name": "Waldeck-Frankenberg",
+    "bundesland_uid": "xMmHrbkMQxr",
+    "bundesland_name": "Hessen",
+    "lat": 51.196,
+    "lon": 8.8981
+  },
+  {
+    "idx": 342,
+    "uid": "k993ZWidCpk",
+    "name": "Werra-Meißner-Kreis",
+    "bundesland_uid": "xMmHrbkMQxr",
+    "bundesland_name": "Hessen",
+    "lat": 51.1978,
+    "lon": 9.9412
+  },
+  {
+    "idx": 343,
+    "uid": "K4ToF2gfxEr",
+    "name": "Wetteraukreis",
+    "bundesland_uid": "xMmHrbkMQxr",
+    "bundesland_name": "Hessen",
+    "lat": 50.3497,
+    "lon": 8.9192
+  },
+  {
+    "idx": 344,
+    "uid": "zWVsV6OsVJ8",
+    "name": "Wiesbaden Städte",
+    "bundesland_uid": "xMmHrbkMQxr",
+    "bundesland_name": "Hessen",
+    "lat": 50.0768,
+    "lon": 8.2796
+  },
+  {
+    "idx": 345,
+    "uid": "PrCaQELFbN1",
+    "name": "Aachen",
+    "bundesland_uid": "yLvMb8w7bzj",
+    "bundesland_name": "Nordrhein-Westfalen",
+    "lat": 50.7251,
+    "lon": 6.2574
+  },
+  {
+    "idx": 346,
+    "uid": "c3hMIjBEF3A",
+    "name": "Aachen Städte",
+    "bundesland_uid": "yLvMb8w7bzj",
+    "bundesland_name": "Nordrhein-Westfalen",
+    "lat": 50.7666,
+    "lon": 6.0748
+  },
+  {
+    "idx": 347,
+    "uid": "P5a13hhB0He",
+    "name": "Bielefeld Städte",
+    "bundesland_uid": "yLvMb8w7bzj",
+    "bundesland_name": "Nordrhein-Westfalen",
+    "lat": 52.0153,
+    "lon": 8.5241
+  },
+  {
+    "idx": 348,
+    "uid": "Woaob5ofn5k",
+    "name": "Bochum Städte",
+    "bundesland_uid": "yLvMb8w7bzj",
+    "bundesland_name": "Nordrhein-Westfalen",
+    "lat": 51.4693,
+    "lon": 7.2402
+  },
+  {
+    "idx": 349,
+    "uid": "acm2qwAjrny",
+    "name": "Bonn Städte",
+    "bundesland_uid": "yLvMb8w7bzj",
+    "bundesland_name": "Nordrhein-Westfalen",
+    "lat": 50.6933,
+    "lon": 7.1132
+  },
+  {
+    "idx": 350,
+    "uid": "IsAU3cyZLBL",
+    "name": "Borken",
+    "bundesland_uid": "yLvMb8w7bzj",
+    "bundesland_name": "Nordrhein-Westfalen",
+    "lat": 51.9433,
+    "lon": 6.853
+  },
+  {
+    "idx": 351,
+    "uid": "FbCTjTAlIL9",
+    "name": "Bottrop Städte",
+    "bundesland_uid": "yLvMb8w7bzj",
+    "bundesland_name": "Nordrhein-Westfalen",
+    "lat": 51.5663,
+    "lon": 6.9258
+  },
+  {
+    "idx": 352,
+    "uid": "nvMh0j7akks",
+    "name": "Cleves",
+    "bundesland_uid": "yLvMb8w7bzj",
+    "bundesland_name": "Nordrhein-Westfalen",
+    "lat": 51.6751,
+    "lon": 6.2859
+  },
+  {
+    "idx": 353,
+    "uid": "yEOITU17v5G",
+    "name": "Coesfeld",
+    "bundesland_uid": "yLvMb8w7bzj",
+    "bundesland_name": "Nordrhein-Westfalen",
+    "lat": 51.8441,
+    "lon": 7.4082
+  },
+  {
+    "idx": 354,
+    "uid": "igmD3RtCNap",
+    "name": "Cologne Städte",
+    "bundesland_uid": "yLvMb8w7bzj",
+    "bundesland_name": "Nordrhein-Westfalen",
+    "lat": 50.9546,
+    "lon": 6.9603
+  },
+  {
+    "idx": 355,
+    "uid": "JGtXB8wg79V",
+    "name": "Dortmund Städte",
+    "bundesland_uid": "yLvMb8w7bzj",
+    "bundesland_name": "Nordrhein-Westfalen",
+    "lat": 51.5208,
+    "lon": 7.4725
+  },
+  {
+    "idx": 356,
+    "uid": "X3zII3OYv6Y",
+    "name": "Duisburg Städte",
+    "bundesland_uid": "yLvMb8w7bzj",
+    "bundesland_name": "Nordrhein-Westfalen",
+    "lat": 51.4426,
+    "lon": 6.7405
+  },
+  {
+    "idx": 357,
+    "uid": "qOy3yUqhNsq",
+    "name": "Düren",
+    "bundesland_uid": "yLvMb8w7bzj",
+    "bundesland_name": "Nordrhein-Westfalen",
+    "lat": 50.8199,
+    "lon": 6.4349
+  },
+  {
+    "idx": 358,
+    "uid": "ggFQMOLLOb5",
+    "name": "Düsseldorf Städte",
+    "bundesland_uid": "yLvMb8w7bzj",
+    "bundesland_name": "Nordrhein-Westfalen",
+    "lat": 51.2312,
+    "lon": 6.8355
+  },
+  {
+    "idx": 359,
+    "uid": "FcoNSPmiSdy",
+    "name": "Ennepe-Ruhr",
+    "bundesland_uid": "yLvMb8w7bzj",
+    "bundesland_name": "Nordrhein-Westfalen",
+    "lat": 51.3275,
+    "lon": 7.3452
+  },
+  {
+    "idx": 360,
+    "uid": "Vg0kmWk7smQ",
+    "name": "Essen Städte",
+    "bundesland_uid": "yLvMb8w7bzj",
+    "bundesland_name": "Nordrhein-Westfalen",
+    "lat": 51.4269,
+    "lon": 7.0098
+  },
+  {
+    "idx": 361,
+    "uid": "kvYoN4T7gXg",
+    "name": "Euskirchen",
+    "bundesland_uid": "yLvMb8w7bzj",
+    "bundesland_name": "Nordrhein-Westfalen",
+    "lat": 50.518,
+    "lon": 6.6676
+  },
+  {
+    "idx": 362,
+    "uid": "uFEXskTBZ5Z",
+    "name": "Gelsenkirchen Städte",
+    "bundesland_uid": "yLvMb8w7bzj",
+    "bundesland_name": "Nordrhein-Westfalen",
+    "lat": 51.5457,
+    "lon": 7.0823
+  },
+  {
+    "idx": 363,
+    "uid": "K34E4HOdc67",
+    "name": "Gütersloh",
+    "bundesland_uid": "yLvMb8w7bzj",
+    "bundesland_name": "Nordrhein-Westfalen",
+    "lat": 51.9372,
+    "lon": 8.364
+  },
+  {
+    "idx": 364,
+    "uid": "s6yyUzh59jD",
+    "name": "Hagen Städte",
+    "bundesland_uid": "yLvMb8w7bzj",
+    "bundesland_name": "Nordrhein-Westfalen",
+    "lat": 51.3358,
+    "lon": 7.4818
+  },
+  {
+    "idx": 365,
+    "uid": "gsMANeJWg0i",
+    "name": "Hamm Städte",
+    "bundesland_uid": "yLvMb8w7bzj",
+    "bundesland_name": "Nordrhein-Westfalen",
+    "lat": 51.6654,
+    "lon": 7.8197
+  },
+  {
+    "idx": 366,
+    "uid": "ORF5cOXEidb",
+    "name": "Heinsberg",
+    "bundesland_uid": "yLvMb8w7bzj",
+    "bundesland_name": "Nordrhein-Westfalen",
+    "lat": 51.05,
+    "lon": 6.1583
+  },
+  {
+    "idx": 367,
+    "uid": "kG9ZGcZBqpF",
+    "name": "Herford",
+    "bundesland_uid": "yLvMb8w7bzj",
+    "bundesland_name": "Nordrhein-Westfalen",
+    "lat": 52.1574,
+    "lon": 8.6603
+  },
+  {
+    "idx": 368,
+    "uid": "BgTG5I8i86l",
+    "name": "Herne Städte",
+    "bundesland_uid": "yLvMb8w7bzj",
+    "bundesland_name": "Nordrhein-Westfalen",
+    "lat": 51.5297,
+    "lon": 7.2157
+  },
+  {
+    "idx": 369,
+    "uid": "Tch5DE6faIa",
+    "name": "Hochsauerlandkreis",
+    "bundesland_uid": "yLvMb8w7bzj",
+    "bundesland_name": "Nordrhein-Westfalen",
+    "lat": 51.3237,
+    "lon": 8.4084
+  },
+  {
+    "idx": 370,
+    "uid": "Sran8fXcjPN",
+    "name": "Höxter",
+    "bundesland_uid": "yLvMb8w7bzj",
+    "bundesland_name": "Nordrhein-Westfalen",
+    "lat": 51.6849,
+    "lon": 9.1935
+  },
+  {
+    "idx": 371,
+    "uid": "d8sLKm8W159",
+    "name": "Krefeld Städte",
+    "bundesland_uid": "yLvMb8w7bzj",
+    "bundesland_name": "Nordrhein-Westfalen",
+    "lat": 51.3559,
+    "lon": 6.5941
+  },
+  {
+    "idx": 372,
+    "uid": "UYCDYcIIPU3",
+    "name": "Leverkusen Städte",
+    "bundesland_uid": "yLvMb8w7bzj",
+    "bundesland_name": "Nordrhein-Westfalen",
+    "lat": 51.0539,
+    "lon": 7.0086
+  },
+  {
+    "idx": 373,
+    "uid": "xYd1RRQucMi",
+    "name": "Lippe",
+    "bundesland_uid": "yLvMb8w7bzj",
+    "bundesland_name": "Nordrhein-Westfalen",
+    "lat": 51.9939,
+    "lon": 9.0041
+  },
+  {
+    "idx": 374,
+    "uid": "krzoTKfHZSS",
+    "name": "Mettmann",
+    "bundesland_uid": "yLvMb8w7bzj",
+    "bundesland_name": "Nordrhein-Westfalen",
+    "lat": 51.2337,
+    "lon": 6.9617
+  },
+  {
+    "idx": 375,
+    "uid": "mpzAbLWArTT",
+    "name": "Minden-Lübbecke",
+    "bundesland_uid": "yLvMb8w7bzj",
+    "bundesland_name": "Nordrhein-Westfalen",
+    "lat": 52.348,
+    "lon": 8.8
+  },
+  {
+    "idx": 376,
+    "uid": "cylF9Eu08D6",
+    "name": "Märkischer Kreis",
+    "bundesland_uid": "yLvMb8w7bzj",
+    "bundesland_name": "Nordrhein-Westfalen",
+    "lat": 51.2701,
+    "lon": 7.7166
+  },
+  {
+    "idx": 377,
+    "uid": "CPIp8QuBh6s",
+    "name": "Mönchengladbach Städte",
+    "bundesland_uid": "yLvMb8w7bzj",
+    "bundesland_name": "Nordrhein-Westfalen",
+    "lat": 51.1668,
+    "lon": 6.4357
+  },
+  {
+    "idx": 378,
+    "uid": "lfo8hK2uePs",
+    "name": "Mülheim Städte",
+    "bundesland_uid": "yLvMb8w7bzj",
+    "bundesland_name": "Nordrhein-Westfalen",
+    "lat": 51.4113,
+    "lon": 6.8888
+  },
+  {
+    "idx": 379,
+    "uid": "MsVC5KsQz4M",
+    "name": "Münster Städte",
+    "bundesland_uid": "yLvMb8w7bzj",
+    "bundesland_name": "Nordrhein-Westfalen",
+    "lat": 51.9478,
+    "lon": 7.6223
+  },
+  {
+    "idx": 380,
+    "uid": "EYPU1RyQgK6",
+    "name": "Oberbergischer Kreis",
+    "bundesland_uid": "yLvMb8w7bzj",
+    "bundesland_name": "Nordrhein-Westfalen",
+    "lat": 51.0371,
+    "lon": 7.4806
+  },
+  {
+    "idx": 381,
+    "uid": "QSQfHTIQoc0",
+    "name": "Oberhausen Städte",
+    "bundesland_uid": "yLvMb8w7bzj",
+    "bundesland_name": "Nordrhein-Westfalen",
+    "lat": 51.5035,
+    "lon": 6.8607
+  },
+  {
+    "idx": 382,
+    "uid": "m3wxChcnB3Z",
+    "name": "Olpe",
+    "bundesland_uid": "yLvMb8w7bzj",
+    "bundesland_name": "Nordrhein-Westfalen",
+    "lat": 51.0935,
+    "lon": 7.9869
+  },
+  {
+    "idx": 383,
+    "uid": "tykbq1S6190",
+    "name": "Paderborn",
+    "bundesland_uid": "yLvMb8w7bzj",
+    "bundesland_name": "Nordrhein-Westfalen",
+    "lat": 51.6428,
+    "lon": 8.7316
+  },
+  {
+    "idx": 384,
+    "uid": "cqQtuok7Uxf",
+    "name": "Recklinghausen",
+    "bundesland_uid": "yLvMb8w7bzj",
+    "bundesland_name": "Nordrhein-Westfalen",
+    "lat": 51.6501,
+    "lon": 7.1678
+  },
+  {
+    "idx": 385,
+    "uid": "d8aRrTNTyCX",
+    "name": "Remscheid Städte",
+    "bundesland_uid": "yLvMb8w7bzj",
+    "bundesland_name": "Nordrhein-Westfalen",
+    "lat": 51.174,
+    "lon": 7.2201
+  },
+  {
+    "idx": 386,
+    "uid": "Qw70jhLaOtX",
+    "name": "Rhein-Erft-Kreis",
+    "bundesland_uid": "yLvMb8w7bzj",
+    "bundesland_name": "Nordrhein-Westfalen",
+    "lat": 50.9062,
+    "lon": 6.7241
+  },
+  {
+    "idx": 387,
+    "uid": "lOrD0p0cSZk",
+    "name": "Rhein-Kreis Neuss",
+    "bundesland_uid": "yLvMb8w7bzj",
+    "bundesland_name": "Nordrhein-Westfalen",
+    "lat": 51.1473,
+    "lon": 6.6441
+  },
+  {
+    "idx": 388,
+    "uid": "ivArfyc03yq",
+    "name": "Rhein-Sieg",
+    "bundesland_uid": "yLvMb8w7bzj",
+    "bundesland_name": "Nordrhein-Westfalen",
+    "lat": 50.7337,
+    "lon": 7.2074
+  },
+  {
+    "idx": 389,
+    "uid": "w8lHrdaGDko",
+    "name": "Rheinisch-Bergischer Kreis",
+    "bundesland_uid": "yLvMb8w7bzj",
+    "bundesland_name": "Nordrhein-Westfalen",
+    "lat": 51.0272,
+    "lon": 7.1999
+  },
+  {
+    "idx": 390,
+    "uid": "F3GJ9taBVGE",
+    "name": "Siegen-Wittgenstein",
+    "bundesland_uid": "yLvMb8w7bzj",
+    "bundesland_name": "Nordrhein-Westfalen",
+    "lat": 50.9328,
+    "lon": 8.2009
+  },
+  {
+    "idx": 391,
+    "uid": "mvu30pnkHcq",
+    "name": "Soest",
+    "bundesland_uid": "yLvMb8w7bzj",
+    "bundesland_name": "Nordrhein-Westfalen",
+    "lat": 51.5719,
+    "lon": 8.2051
+  },
+  {
+    "idx": 392,
+    "uid": "Dr6c4ZpXEXR",
+    "name": "Solingen Städte",
+    "bundesland_uid": "yLvMb8w7bzj",
+    "bundesland_name": "Nordrhein-Westfalen",
+    "lat": 51.1494,
+    "lon": 7.0859
+  },
+  {
+    "idx": 393,
+    "uid": "WoCZ4MPPpkB",
+    "name": "Steinfurt",
+    "bundesland_uid": "yLvMb8w7bzj",
+    "bundesland_name": "Nordrhein-Westfalen",
+    "lat": 52.1957,
+    "lon": 7.6218
+  },
+  {
+    "idx": 394,
+    "uid": "h1iLGrymoRl",
+    "name": "Unna",
+    "bundesland_uid": "yLvMb8w7bzj",
+    "bundesland_name": "Nordrhein-Westfalen",
+    "lat": 51.5658,
+    "lon": 7.6246
+  },
+  {
+    "idx": 395,
+    "uid": "pd6kwrjJiIB",
+    "name": "Viersen",
+    "bundesland_uid": "yLvMb8w7bzj",
+    "bundesland_name": "Nordrhein-Westfalen",
+    "lat": 51.2897,
+    "lon": 6.3705
+  },
+  {
+    "idx": 396,
+    "uid": "LCBM5iYyZKd",
+    "name": "Warendorf",
+    "bundesland_uid": "yLvMb8w7bzj",
+    "bundesland_name": "Nordrhein-Westfalen",
+    "lat": 51.8515,
+    "lon": 7.9606
+  },
+  {
+    "idx": 397,
+    "uid": "B1fOCWIgcbp",
+    "name": "Wesel",
+    "bundesland_uid": "yLvMb8w7bzj",
+    "bundesland_name": "Nordrhein-Westfalen",
+    "lat": 51.6271,
+    "lon": 6.6076
+  },
+  {
+    "idx": 398,
+    "uid": "MsWougKDjV7",
+    "name": "Wuppertal Städte",
+    "bundesland_uid": "yLvMb8w7bzj",
+    "bundesland_name": "Nordrhein-Westfalen",
+    "lat": 51.2429,
+    "lon": 7.1733
+  },
+  {
+    "idx": 399,
+    "uid": "KKrYz26ylLU",
+    "name": "Ahrweiler",
+    "bundesland_uid": "zaf1vUB8JQr",
+    "bundesland_name": "Rheinland-Pfalz",
+    "lat": 50.451,
+    "lon": 7.0211
+  },
+  {
+    "idx": 400,
+    "uid": "dwMVkQ6wItG",
+    "name": "Altenkirchen",
+    "bundesland_uid": "zaf1vUB8JQr",
+    "bundesland_name": "Rheinland-Pfalz",
+    "lat": 50.7296,
+    "lon": 7.7175
+  },
+  {
+    "idx": 401,
+    "uid": "rUZgUbYFdUr",
+    "name": "Alzey-Worms",
+    "bundesland_uid": "zaf1vUB8JQr",
+    "bundesland_name": "Rheinland-Pfalz",
+    "lat": 49.7534,
+    "lon": 8.1609
+  },
+  {
+    "idx": 402,
+    "uid": "NsOoBU1l2Wn",
+    "name": "Bad Dürkheim",
+    "bundesland_uid": "zaf1vUB8JQr",
+    "bundesland_name": "Rheinland-Pfalz",
+    "lat": 49.441,
+    "lon": 8.1096
+  },
+  {
+    "idx": 403,
+    "uid": "GwBzPWNgX3G",
+    "name": "Bad Kreuznach",
+    "bundesland_uid": "zaf1vUB8JQr",
+    "bundesland_name": "Rheinland-Pfalz",
+    "lat": 49.803,
+    "lon": 7.7017
+  },
+  {
+    "idx": 404,
+    "uid": "BqJT0N6K2Zh",
+    "name": "Bernkastel-Wittlich",
+    "bundesland_uid": "zaf1vUB8JQr",
+    "bundesland_name": "Rheinland-Pfalz",
+    "lat": 49.9214,
+    "lon": 6.9573
+  },
+  {
+    "idx": 405,
+    "uid": "IigdOYNKA4x",
+    "name": "Birkenfeld",
+    "bundesland_uid": "zaf1vUB8JQr",
+    "bundesland_name": "Rheinland-Pfalz",
+    "lat": 49.722,
+    "lon": 7.3151
+  },
+  {
+    "idx": 406,
+    "uid": "zYm5WdVbSuT",
+    "name": "Bitburg-Prüm",
+    "bundesland_uid": "zaf1vUB8JQr",
+    "bundesland_name": "Rheinland-Pfalz",
+    "lat": 50.052,
+    "lon": 6.3998
+  },
+  {
+    "idx": 407,
+    "uid": "poo0mpeeqA2",
+    "name": "Cochem-Zell",
+    "bundesland_uid": "zaf1vUB8JQr",
+    "bundesland_name": "Rheinland-Pfalz",
+    "lat": 50.1391,
+    "lon": 7.2005
+  },
+  {
+    "idx": 408,
+    "uid": "iZnj1LvE0KL",
+    "name": "Donnersbergkreis",
+    "bundesland_uid": "zaf1vUB8JQr",
+    "bundesland_name": "Rheinland-Pfalz",
+    "lat": 49.6338,
+    "lon": 7.9102
+  },
+  {
+    "idx": 409,
+    "uid": "uqd7bGJGJgW",
+    "name": "Frankenthal Städte",
+    "bundesland_uid": "zaf1vUB8JQr",
+    "bundesland_name": "Rheinland-Pfalz",
+    "lat": 49.5436,
+    "lon": 8.3659
+  },
+  {
+    "idx": 410,
+    "uid": "YglCySN0vg8",
+    "name": "Germersheim",
+    "bundesland_uid": "zaf1vUB8JQr",
+    "bundesland_name": "Rheinland-Pfalz",
+    "lat": 49.1413,
+    "lon": 8.2384
+  },
+  {
+    "idx": 411,
+    "uid": "PuiQapO9Cpu",
+    "name": "Kaiserslautern",
+    "bundesland_uid": "zaf1vUB8JQr",
+    "bundesland_name": "Rheinland-Pfalz",
+    "lat": 49.4452,
+    "lon": 7.721
+  },
+  {
+    "idx": 412,
+    "uid": "TrKVD70GkiT",
+    "name": "Kaiserslautern Städte",
+    "bundesland_uid": "zaf1vUB8JQr",
+    "bundesland_name": "Rheinland-Pfalz",
+    "lat": 49.429,
+    "lon": 7.7645
+  },
+  {
+    "idx": 413,
+    "uid": "nso3NLKGchR",
+    "name": "Koblenz Coblenz Städte",
+    "bundesland_uid": "zaf1vUB8JQr",
+    "bundesland_name": "Rheinland-Pfalz",
+    "lat": 50.3434,
+    "lon": 7.594
+  },
+  {
+    "idx": 414,
+    "uid": "VzBBGCwYD68",
+    "name": "Kusel",
+    "bundesland_uid": "zaf1vUB8JQr",
+    "bundesland_name": "Rheinland-Pfalz",
+    "lat": 49.5625,
+    "lon": 7.4992
+  },
+  {
+    "idx": 415,
+    "uid": "rSX0BHsTqYc",
+    "name": "Landau Städte",
+    "bundesland_uid": "zaf1vUB8JQr",
+    "bundesland_name": "Rheinland-Pfalz",
+    "lat": 49.1946,
+    "lon": 8.1116
+  },
+  {
+    "idx": 416,
+    "uid": "RoIWYTan3Cx",
+    "name": "Ludwigshafen Städte",
+    "bundesland_uid": "zaf1vUB8JQr",
+    "bundesland_name": "Rheinland-Pfalz",
+    "lat": 49.473,
+    "lon": 8.3996
+  },
+  {
+    "idx": 417,
+    "uid": "kFDsVCZ0vNo",
+    "name": "Mainz Städte",
+    "bundesland_uid": "zaf1vUB8JQr",
+    "bundesland_name": "Rheinland-Pfalz",
+    "lat": 49.961,
+    "lon": 8.2436
+  },
+  {
+    "idx": 418,
+    "uid": "mYmAKB7XNqp",
+    "name": "Mainz-Bingen",
+    "bundesland_uid": "zaf1vUB8JQr",
+    "bundesland_name": "Rheinland-Pfalz",
+    "lat": 49.9108,
+    "lon": 8.0885
+  },
+  {
+    "idx": 419,
+    "uid": "hGL6W0hC0w8",
+    "name": "Mayen-Koblenz",
+    "bundesland_uid": "zaf1vUB8JQr",
+    "bundesland_name": "Rheinland-Pfalz",
+    "lat": 50.3273,
+    "lon": 7.3734
+  },
+  {
+    "idx": 420,
+    "uid": "z4VLWV2WwNw",
+    "name": "Neustadt Städte",
+    "bundesland_uid": "zaf1vUB8JQr",
+    "bundesland_name": "Rheinland-Pfalz",
+    "lat": 49.342,
+    "lon": 8.1531
+  },
+  {
+    "idx": 421,
+    "uid": "QwHD8xUFDjh",
+    "name": "Neuwied",
+    "bundesland_uid": "zaf1vUB8JQr",
+    "bundesland_name": "Rheinland-Pfalz",
+    "lat": 50.5774,
+    "lon": 7.5019
+  },
+  {
+    "idx": 422,
+    "uid": "qHAFH85GGc2",
+    "name": "Rhein-Hunsrück",
+    "bundesland_uid": "zaf1vUB8JQr",
+    "bundesland_name": "Rheinland-Pfalz",
+    "lat": 50.0561,
+    "lon": 7.4796
+  },
+  {
+    "idx": 423,
+    "uid": "TjHLHvaWgXD",
+    "name": "Rhein-Lahn",
+    "bundesland_uid": "zaf1vUB8JQr",
+    "bundesland_name": "Rheinland-Pfalz",
+    "lat": 50.2738,
+    "lon": 7.8703
+  },
+  {
+    "idx": 424,
+    "uid": "WAwSYu58Nqo",
+    "name": "Rhein-Pfalz-Kreis",
+    "bundesland_uid": "zaf1vUB8JQr",
+    "bundesland_name": "Rheinland-Pfalz",
+    "lat": 49.4366,
+    "lon": 8.3691
+  },
+  {
+    "idx": 425,
+    "uid": "loSTj8QK5bx",
+    "name": "Speyer Spires Städte",
+    "bundesland_uid": "zaf1vUB8JQr",
+    "bundesland_name": "Rheinland-Pfalz",
+    "lat": 49.3426,
+    "lon": 8.4463
+  },
+  {
+    "idx": 426,
+    "uid": "nY9x1o4oTYb",
+    "name": "Südliche Weinstraße",
+    "bundesland_uid": "zaf1vUB8JQr",
+    "bundesland_name": "Rheinland-Pfalz",
+    "lat": 49.1985,
+    "lon": 8.0447
+  },
+  {
+    "idx": 427,
+    "uid": "DSNcMuPMUuo",
+    "name": "Südwestpfalz",
+    "bundesland_uid": "zaf1vUB8JQr",
+    "bundesland_name": "Rheinland-Pfalz",
+    "lat": 49.2371,
+    "lon": 7.6388
+  },
+  {
+    "idx": 428,
+    "uid": "DrRDuzP2PPv",
+    "name": "Trier Städte",
+    "bundesland_uid": "zaf1vUB8JQr",
+    "bundesland_name": "Rheinland-Pfalz",
+    "lat": 49.7679,
+    "lon": 6.6628
+  },
+  {
+    "idx": 429,
+    "uid": "OvLsHcq9oDG",
+    "name": "Trier-Saarburg",
+    "bundesland_uid": "zaf1vUB8JQr",
+    "bundesland_name": "Rheinland-Pfalz",
+    "lat": 49.7141,
+    "lon": 6.6895
+  },
+  {
+    "idx": 430,
+    "uid": "Smt6afPcx6y",
+    "name": "Vulkaneifel",
+    "bundesland_uid": "zaf1vUB8JQr",
+    "bundesland_name": "Rheinland-Pfalz",
+    "lat": 50.2491,
+    "lon": 6.7445
+  },
+  {
+    "idx": 431,
+    "uid": "AO23ZSKk7ko",
+    "name": "Westerwaldkreis",
+    "bundesland_uid": "zaf1vUB8JQr",
+    "bundesland_name": "Rheinland-Pfalz",
+    "lat": 50.5289,
+    "lon": 7.8567
+  },
+  {
+    "idx": 432,
+    "uid": "wP4EYgWNyTB",
+    "name": "Worms Städte",
+    "bundesland_uid": "zaf1vUB8JQr",
+    "bundesland_name": "Rheinland-Pfalz",
+    "lat": 49.6609,
+    "lon": 8.349
+  },
+  {
+    "idx": 433,
+    "uid": "Aju5x32lTXm",
+    "name": "Zweibrücken Städte",
+    "bundesland_uid": "zaf1vUB8JQr",
+    "bundesland_name": "Rheinland-Pfalz",
+    "lat": 49.2564,
+    "lon": 7.3693
+  }
+]

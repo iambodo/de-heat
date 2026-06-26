@@ -7,7 +7,7 @@ Usage:
 
 Input CSVs (from chap-core):
     time_period       — ISO week e.g. "2024W27" or "2024-W27"
-    location          — DHIS2 Bundesland org unit UID
+    location          — DHIS2 Kreis (district) org unit UID
     mean_temperature  — weekly mean 2m temperature (°C)
 
 Output CSV:
@@ -15,46 +15,87 @@ Output CSV:
 """
 import json, sys, os, pickle, zipfile
 from datetime import datetime
+from pathlib import Path
 import numpy as np
 import pandas as pd
-from pathlib import Path
 
 N_SAMPLES = 100
 KERNEL_DAYS = 6
 
-BL_UID_TO_IDX = {
-    'sTHbKLIUiJQ': 0,   # Schleswig-Holstein
-    'fAJqvNnlzCz': 1,   # Hamburg
-    'Oe1a2DZbDqa': 2,   # Niedersachsen
-    'S6YiLzHwyRS': 3,   # Bremen
-    'yLvMb8w7bzj': 4,   # Nordrhein-Westfalen
-    'xMmHrbkMQxr': 5,   # Hessen
-    'zaf1vUB8JQr': 6,   # Rheinland-Pfalz
-    'DqYmO9PfYbM': 7,   # Baden-Württemberg
-    'FGE1fIzw6BE': 8,   # Bayern
-    'twL5PpAyM0g': 9,   # Saarland
-    'S0gZ79eJSx8': 10,  # Berlin
-    'hy1y1zKBxXo': 11,  # Brandenburg
-    'tzcHKEmmNli': 12,  # Mecklenburg-Vorpommern
-    'T7xo5gzevDD': 13,  # Sachsen
-    'oazLtnGqAPR': 14,  # Sachsen-Anhalt
-    'PrgdgbVZr2d': 15,  # Thüringen
-}
-BL_IDX_TO_UID = {v: k for k, v in BL_UID_TO_IDX.items()}
-BL_KREIS_COUNTS = [15, 1, 45, 2, 53, 26, 36, 44, 96, 6, 1, 18, 8, 13, 14, 22]
+REPO_ROOT = os.path.dirname(os.path.abspath(__file__))
 
-# Population (Destatis 2023) as a fraction of Germany total, divided by Kreis fraction.
-# The model distributes mortality uniformly across 400 Kreise, but Kreis count ≠ population
-# share. Berlin has 1 Kreis (0.25% of model) but 4.5% of population → needs ×18 scaling.
-# Formula: (Bundesland pop / Germany pop) / (Kreis count / 400).
-_BL_POP = [2953243, 1910160, 8101307, 684862, 18137620, 6400732,
-           4100023, 11286556, 13369393, 994187, 3755251, 2573040,
-           1634987, 4055274, 2166382, 2115485]
-_GERMANY_POP = sum(_BL_POP)
-BL_POP_SCALE = [
-    (p / _GERMANY_POP) / (k / 400)
-    for p, k in zip(_BL_POP, BL_KREIS_COUNTS)
-]
+# Population (Destatis 2023) per Bundesland, used to weight per-Kreis baseline
+_BL_POP = {
+    'sTHbKLIUiJQ': 2953243,   # Schleswig-Holstein
+    'fAJqvNnlzCz': 1910160,   # Hamburg
+    'Oe1a2DZbDqa': 8101307,   # Niedersachsen
+    'S6YiLzHwyRS':  684862,   # Bremen
+    'yLvMb8w7bzj': 18137620,  # Nordrhein-Westfalen
+    'xMmHrbkMQxr': 6400732,   # Hessen
+    'zaf1vUB8JQr': 4100023,   # Rheinland-Pfalz
+    'DqYmO9PfYbM': 11286556,  # Baden-Württemberg
+    'FGE1fIzw6BE': 13369393,  # Bayern
+    'twL5PpAyM0g':  994187,   # Saarland
+    'S0gZ79eJSx8': 3755251,   # Berlin
+    'hy1y1zKBxXo': 2573040,   # Brandenburg
+    'tzcHKEmmNli': 1634987,   # Mecklenburg-Vorpommern
+    'T7xo5gzevDD': 4055274,   # Sachsen
+    'oazLtnGqAPR': 2166382,   # Sachsen-Anhalt
+    'PrgdgbVZr2d': 2115485,   # Thüringen
+}
+_GERMANY_POP = sum(_BL_POP.values())
+
+
+def load_kreis_list():
+    """Load Kreis list from committed JSON, return (uid_to_idx, idx_to_uid, bl_uid_per_kreis, coords)."""
+    path = Path(REPO_ROOT) / 'model_artifacts' / 'kreis_list.json'
+    kreise = json.loads(path.read_text())
+    uid_to_idx = {k['uid']: k['idx'] for k in kreise}
+    idx_to_uid = {k['idx']: k['uid'] for k in kreise}
+    bl_uid = {k['idx']: k['bundesland_uid'] for k in kreise}
+    # coords[idx] = (lat, lon) or None if missing
+    coords = {k['idx']: (k['lat'], k['lon']) for k in kreise if 'lat' in k and 'lon' in k}
+    return uid_to_idx, idx_to_uid, bl_uid, coords
+
+
+def interpolate_missing_kreise(temp_kreise, missing_idx, coords, n_periods):
+    """
+    Fill rows for Kreise with no temperature data using inverse-distance
+    weighted average of the 5 nearest Kreise that do have data, per week.
+    """
+    all_idx = list(range(temp_kreise.shape[0]))
+    has_data = [i for i in all_idx if i not in missing_idx and i in coords]
+    if not has_data:
+        return
+
+    has_data_coords = np.array([(coords[i][0], coords[i][1]) for i in has_data])
+
+    for k_idx in missing_idx:
+        if k_idx not in coords:
+            continue
+        q = np.array(coords[k_idx])
+        # Haversine-approximate: treat lat/lon as Euclidean (fine for neighbors in Germany)
+        diffs = has_data_coords - q
+        dists = np.sqrt((diffs[:, 0] ** 2) + (diffs[:, 1] ** 2))
+        k_nn = min(5, len(has_data))
+        nn_pos = np.argpartition(dists, k_nn - 1)[:k_nn]
+        nn_idx = [has_data[p] for p in nn_pos]
+        nn_dists = dists[nn_pos]
+
+        if nn_dists.min() == 0:
+            weights = np.where(nn_dists == 0, 1.0, 0.0)
+        else:
+            weights = 1.0 / (nn_dists ** 2)
+        weights /= weights.sum()
+
+        for w in range(n_periods):
+            day_slice = slice(w * 7, (w + 1) * 7)
+            neighbor_means = np.array([temp_kreise[n, day_slice].mean() for n in nn_idx])
+            valid = neighbor_means != 0
+            if not valid.any():
+                continue
+            w_valid = weights[valid] / weights[valid].sum()
+            temp_kreise[k_idx, day_slice] = (neighbor_means[valid] * w_valid).sum()
 
 
 # ── Checkpoint loader (pure numpy, no torch) ──────────────────────────────────
@@ -111,6 +152,7 @@ def conv1d(x, weight, bias):
 
 
 def forward(temp_kreise, weights):
+    """temp_kreise: [N_kreise, n_days]. Returns [n_days-5, N_kreise, 15, 2]."""
     w = weights
     x_bn = ((temp_kreise - w['norm.running_mean'][0])
             / np.sqrt(w['norm.running_var'][0] + 1e-5)
@@ -123,7 +165,7 @@ def forward(temp_kreise, weights):
     x_exp_sum = conv1d(x_exp, w['conv2.weight'] ** 2, w['conv2.bias'])
     res = (x_exp_sum + x_sum_exp).transpose(2, 0, 1)
     out = res @ (w['fc.weight'] ** 2).T + w['fc.bias']
-    return out.reshape(out.shape[0], 400, 15, 2)
+    return out.reshape(*out.shape[:2], 15, 2)
 
 
 def apply_death_pred(outputs, weights, bdc):
@@ -135,7 +177,8 @@ def apply_death_pred(outputs, weights, bdc):
     return factor * corr * bdc
 
 
-def load_baseline(mort_dir):
+def load_baseline(mort_dir, n_kreise, bl_uid_per_kreis):
+    """Returns per-Kreis baseline [n_kreise, 15, 2]: daily deaths per age-sex group."""
     mort_dir = Path(mort_dir)
     men   = np.load(mort_dir / 'men_de_age_week.npy')
     women = np.load(mort_dir / 'women_de_age_week.npy')
@@ -147,17 +190,26 @@ def load_baseline(mort_dir):
             last = w; break
     win = slice(max(0, last - 51), last + 1)
     k = min(10, last + 1)
-    base_m = np.sort(dm[:, win], axis=1)[:, :k].sum(1) / (k * 7)
-    base_w = np.sort(dw[:, win], axis=1)[:, :k].sum(1) / (k * 7)
-    germany_daily = base_m.sum() + base_w.sum()
-    return germany_daily / 400 / 30
+    base_m = np.sort(dm[:, win], axis=1)[:, :k].sum(1) / (k * 7)  # [15] daily per age
+    base_w = np.sort(dw[:, win], axis=1)[:, :k].sum(1) / (k * 7)  # [15] daily per age
+    germany_daily_age = np.stack([base_m, base_w], axis=-1)        # [15, 2]
+
+    # Count Kreise per Bundesland to split BL share equally
+    from collections import Counter
+    bl_kreis_counts = Counter(bl_uid_per_kreis.values())
+
+    bdc = np.zeros((n_kreise, 15, 2))
+    for idx, bl_uid in bl_uid_per_kreis.items():
+        bl_pop_share = _BL_POP.get(bl_uid, 0) / _GERMANY_POP
+        n_bl_kreise  = bl_kreis_counts[bl_uid]
+        bdc[idx] = germany_daily_age * bl_pop_share / n_bl_kreise
+
+    return bdc
 
 
 # ── Period helpers ────────────────────────────────────────────────────────────
 
 def normalize_period(p):
-    """Normalize to YYYYWnn. Handles '2024W27', '2024-W27', and DHIS2
-    date-range format '2023-01-02/2023-01-08' (uses the start date)."""
     p = str(p)
     if '/' in p:
         start = p.split('/')[0]
@@ -179,9 +231,13 @@ def predict(model_path, historic_data_path, future_data_path, out_path):
     with open(model_path) as f:
         config = json.load(f)
 
+    uid_to_idx, idx_to_uid, bl_uid_per_kreis, kreis_coords = load_kreis_list()
+    n_kreise = len(uid_to_idx)
+    print(f"Loaded {n_kreise} Kreise")
+
     print("Loading model weights …")
     weights  = load_weights(config['checkpoint'])
-    baseline = load_baseline(config['mort_dir'])
+    baseline = load_baseline(config['mort_dir'], n_kreise, bl_uid_per_kreis)
 
     hist_df = pd.read_csv(historic_data_path)
     fut_df  = pd.read_csv(future_data_path)
@@ -193,36 +249,41 @@ def predict(model_path, historic_data_path, future_data_path, out_path):
     all_periods = sorted(all_df['time_period'].unique(), key=period_sort_key)
     fut_set     = set(fut_df['time_period'].unique())
 
-    # Build temperature matrix [400, n_days]
+    # Build temperature matrix [n_kreise, n_days]
     n_days      = len(all_periods) * 7
-    temp_kreise = np.zeros((400, n_days))
+    temp_kreise = np.zeros((n_kreise, n_days))
 
+    unknown_locs = set()
+    kreise_with_data = set()
     for t_idx, period in enumerate(all_periods):
         week_df   = all_df[all_df['time_period'] == period]
         day_slice = slice(t_idx * 7, (t_idx + 1) * 7)
-        bl_temps  = np.full(16, np.nan)
         for _, row in week_df.iterrows():
-            bl_idx = BL_UID_TO_IDX.get(str(row['location']))
-            if bl_idx is not None and 'mean_temperature' in row.index:
-                val = row['mean_temperature']
-                if pd.notna(val):
-                    bl_temps[bl_idx] = float(val)
-        nan_mask = np.isnan(bl_temps)
-        if nan_mask.any():
-            fill = float(np.nanmean(bl_temps)) if not nan_mask.all() else 15.0
-            bl_temps[nan_mask] = fill
-        kreis_idx = 0
-        for bl_i, count in enumerate(BL_KREIS_COUNTS):
-            temp_kreise[kreis_idx:kreis_idx + count, day_slice] = bl_temps[bl_i]
-            kreis_idx += count
+            k_idx = uid_to_idx.get(str(row['location']))
+            if k_idx is None:
+                unknown_locs.add(str(row['location']))
+                continue
+            if 'mean_temperature' in row.index and pd.notna(row['mean_temperature']):
+                temp_kreise[k_idx, day_slice] = float(row['mean_temperature'])
+                kreise_with_data.add(k_idx)
+
+    if unknown_locs:
+        print(f"  Warning: {len(unknown_locs)} unknown location UIDs ignored: {list(unknown_locs)[:5]}")
+
+    missing_kreise = set(range(n_kreise)) - kreise_with_data
+    if missing_kreise:
+        names = [idx_to_uid[i] for i in sorted(missing_kreise)]
+        print(f"  Interpolating {len(missing_kreise)} Kreise with no temperature data from nearest neighbors")
+        print(f"    UIDs: {names[:5]}{'...' if len(names) > 5 else ''}")
+        interpolate_missing_kreise(temp_kreise, missing_kreise, kreis_coords, len(all_periods))
 
     # Forward pass
-    temp_norm   = temp_kreise / 15.0
-    raw_out     = forward(temp_norm, weights)             # [n_days-5, 400, 15, 2]
-    n_pred      = raw_out.shape[0]
-    bdc         = np.full((n_pred, 400, 15, 2), baseline)
-    daily_full  = apply_death_pred(raw_out, weights, bdc)
-    daily_kreise = daily_full.sum(axis=(2, 3))            # [n_pred, 400]
+    temp_norm  = temp_kreise / 15.0
+    raw_out    = forward(temp_norm, weights)                   # [n_days-5, n_kreise, 15, 2]
+    n_pred     = raw_out.shape[0]
+    bdc        = np.broadcast_to(baseline[np.newaxis], (n_pred, n_kreise, 15, 2)).copy()
+    daily_full = apply_death_pred(raw_out, weights, bdc)
+    daily_kreise = daily_full.sum(axis=(2, 3))                 # [n_pred, n_kreise]
 
     pred_start = KERNEL_DAYS - 1
 
@@ -236,23 +297,16 @@ def predict(model_path, historic_data_path, future_data_path, out_path):
             print(f"  Skipping {period}: not enough context ({day_start}–{day_end} vs {n_pred})")
             continue
 
-        week_kreise = daily_kreise[day_start:day_end].sum(axis=0)   # [400]
-
-        # Convert to YYYY-Wnn format (with hyphen) for chap-core's TimePeriod.parse
+        week_kreise = daily_kreise[day_start:day_end].sum(axis=0)  # [n_kreise]
         chap_period = period[:4] + '-W' + period[5:]
 
-        kreis_idx = 0
-        for bl_i, count in enumerate(BL_KREIS_COUNTS):
-            bl_uid = BL_IDX_TO_UID.get(bl_i)
-            if bl_uid is None:
-                kreis_idx += count; continue
-            weekly_mean = float(week_kreise[kreis_idx:kreis_idx + count].sum()) * BL_POP_SCALE[bl_i]
-            lam = max(weekly_mean, 1.0)
+        for k_idx in range(n_kreise):
+            uid = idx_to_uid[k_idx]
+            lam = max(float(week_kreise[k_idx]), 1.0)
             samples = np.random.poisson(lam, N_SAMPLES).astype(float)
-            row = {'time_period': chap_period, 'location': bl_uid}
+            row = {'time_period': chap_period, 'location': uid}
             row.update({f'sample_{i}': s for i, s in enumerate(samples)})
             rows.append(row)
-            kreis_idx += count
 
     out_df = pd.DataFrame(rows)
     out_df.to_csv(out_path, index=False)
